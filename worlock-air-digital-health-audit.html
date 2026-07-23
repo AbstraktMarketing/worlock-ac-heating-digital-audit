@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Digital Health and Performance Assessment for Worlock Air Conditioning &amp; Heating — site audit, keyword gap analysis, and recommended SEO solution.">
+<meta property="og:title" content="Worlock Air Conditioning &amp; Heating — Digital Health &amp; Performance Assessment">
+<meta property="og:description" content="Comprehensive SEO audit, competitor gap analysis, and recommended solution prepared by Abstrakt Marketing Group.">
+<meta property="og:type" content="article">
+<title>Worlock Air Conditioning &amp; Heating — Digital Health &amp; Performance Assessment</title>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --navy: #13305C;
+  --navy-dark: #0E2245;
+  --navy-light: #294E86;
+  --coral: #FF5A3C;
+  --aqua: #2BD4C4;
+  --off-white: #F6F7FA;
+  --white: #FFFFFF;
+  --charcoal: #1A1A1A;
+  --text: #2D2D2D;
+  --muted: #8A8A8A;
+  --light-gray: #ECEEF3;
+  --border: #E2E4EA;
+  --green: #0B857B;
+  --green-light: #E4F8F6;
+  --red: #D43A1E;
+  --red-light: #FDEEEA;
+  --amber: #D4920A;
+  --amber-light: #FFF8E1;
+  --blue: #294E86;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background: var(--off-white);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.cover {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  overflow: hidden;
+}
+.cover-left {
+  background: linear-gradient(160deg, var(--navy) 0%, var(--navy-dark) 100%);
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.cover-left .cover-logo { flex-shrink: 0; }
+.cover-left .cover-content { flex: 1; display: flex; flex-direction: column; justify-content: center; padding: 0.5rem 0; }
+.cover-left .cover-footer { flex-shrink: 0; }
+.cover-left::before {
+  content: '';
+  position: absolute;
+  top: -90px; right: -90px;
+  width: 320px; height: 320px;
+  border-radius: 50%;
+  border: 1px solid rgba(255,90,60,0.42);
+  opacity: 0.5;
+}
+.cover-left .ring-aqua {
+  position: absolute;
+  top: -30px; right: 20px;
+  width: 200px; height: 200px;
+  border-radius: 50%;
+  border: 1px solid rgba(43,212,196,0.45);
+  opacity: 0.5;
+  pointer-events: none;
+}
+.platform-tags { display: flex; gap: 0.4rem; margin-top: 0.9rem; flex-wrap: wrap; }
+.platform-tag {
+  font-size: 0.62rem; font-weight: 600; padding: 0.2rem 0.7rem;
+  border-radius: 20px; border: 1px solid rgba(255,90,60,0.42);
+  color: var(--coral); letter-spacing: 0.05em;
+}
+.cover-left::after {
+  content: '';
+  position: absolute;
+  bottom: 0; left: 0; right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.15), transparent);
+}
+.cover-badge {
+  font-size: 0.75rem; font-weight: 600; letter-spacing: 0.15em;
+  text-transform: uppercase; color: rgba(255,255,255,0.5); margin-bottom: 0.75rem;
+}
+.cover-title {
+  font-size: 3.2rem; font-weight: 800; color: var(--white);
+  line-height: 1.1; margin-bottom: 0; letter-spacing: -0.02em;
+}
+.cover-title span {
+  display: block; font-weight: 300; font-size: 0.95rem;
+  letter-spacing: 0.08em; text-transform: uppercase;
+  margin-top: 1.25rem; color: rgba(255,255,255,0.5);
+}
+.cover-divider { width: 64px; height: 3px; background: rgba(255,255,255,0.35); margin: 0 0 1rem 0; }
+.cover-client { font-size: 1.2rem; font-weight: 500; color: var(--white); }
+.cover-url { font-size: 0.85rem; color: rgba(255,255,255,0.4); margin-top: 0.2rem; }
+.cover-right {
+  padding: 2.5rem 2.25rem;
+  display: flex; flex-direction: column;
+  justify-content: center; align-items: stretch;
+  gap: 1rem; min-width: 0;
+}
+.cover-right > .summary-card { width: 100%; }
+.cover-right .summary-card { padding: 1.25rem 1.5rem; }
+.cover-right .summary-card h3 { margin-bottom: 0.85rem; }
+
+.audit-grid {
+  display: grid; grid-template-columns: auto 1fr auto 1fr;
+  column-gap: 1.25rem; row-gap: 0.55rem;
+  font-size: 0.85rem; align-items: baseline;
+}
+.audit-grid .ag-label { font-weight: 600; color: var(--text); white-space: nowrap; }
+.audit-grid .ag-value { font-weight: 800; color: var(--text); white-space: nowrap; }
+.audit-grid .ag-value.accent { color: var(--red); }
+.audit-grid .ag-value.warn { color: var(--amber); }
+
+.cover-right .opportunity-list li { font-size: 0.82rem; padding-left: 1.1rem; }
+
+.comp-body { display: grid; grid-template-columns: 132px 1fr; gap: 1rem; align-items: center; }
+.comp-pie { width: 132px; height: 132px; }
+.comp-pie .pie-label {
+  font-size: 4.2px; font-weight: 800; fill: #fff;
+  text-anchor: middle; dominant-baseline: central; font-family: inherit;
+}
+.comp-legend {
+  display: grid; grid-template-columns: auto auto;
+  column-gap: 1.25rem; row-gap: 0.35rem;
+  font-size: 0.82rem; align-items: center; justify-content: start;
+}
+.comp-legend .cl-name { font-weight: 700; }
+.comp-legend .cl-pct { color: var(--muted); font-weight: 600; }
+
+.summary-card {
+  background: var(--white); border-radius: 12px;
+  padding: 1.5rem; border: 1px solid var(--border);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+}
+.summary-card h3 {
+  font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em;
+  text-transform: uppercase; color: var(--navy); margin-bottom: 1rem;
+}
+
+.opportunity-list { list-style: none; display: flex; flex-direction: column; gap: 0.5rem; }
+.opportunity-list li {
+  font-size: 0.85rem; color: var(--text);
+  padding-left: 1.2rem; position: relative;
+}
+.opportunity-list li::before {
+  content: '→'; position: absolute; left: 0;
+  color: var(--navy); font-weight: 700;
+}
+
+section { padding: 4rem 3rem; max-width: 1300px; margin: 0 auto; }
+.section-header {
+  display: flex; align-items: center; gap: 1rem;
+  margin-bottom: 2.5rem; padding-bottom: 1rem;
+  border-bottom: 2px solid var(--navy);
+}
+.section-number {
+  width: 36px; height: 36px; background: var(--navy);
+  color: var(--white); font-weight: 800; font-size: 0.85rem;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 6px; flex-shrink: 0;
+}
+.section-title { font-size: 1.6rem; font-weight: 800; color: var(--charcoal); letter-spacing: -0.01em; }
+
+.card-grid { display: grid; gap: 1rem; }
+.card-grid.cols-3 { grid-template-columns: repeat(3, 1fr); }
+.card-grid.cols-4 { grid-template-columns: repeat(4, 1fr); }
+.card-grid.cols-2 { grid-template-columns: 1fr 1fr; }
+.card-grid.cols-2-1 { grid-template-columns: 2fr 1fr; }
+.card-grid.cols-1-2 { grid-template-columns: 1fr 2fr; }
+
+.card {
+  background: var(--white); border-radius: 10px;
+  padding: 1.5rem; border: 1px solid var(--border);
+  box-shadow: 0 1px 3px rgba(0,0,0,0.03);
+  position: relative; overflow: hidden;
+}
+.card.span-2 { grid-column: span 2; }
+.card.span-3 { grid-column: span 3; }
+.card.span-4 { grid-column: span 4; }
+
+.card-label {
+  font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
+  text-transform: uppercase; color: var(--muted);
+  margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.4rem;
+}
+.card-label .dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.dot.green { background: var(--green); }
+.dot.red { background: var(--red); }
+.dot.amber { background: var(--amber); }
+.dot.blue { background: var(--blue); }
+
+.big-stat { font-size: 2.8rem; font-weight: 800; line-height: 1; letter-spacing: -0.02em; }
+.big-stat.sm { font-size: 2rem; }
+.big-stat + .stat-sub { font-size: 0.8rem; color: var(--muted); margin-top: 0.25rem; }
+.big-stat.danger { color: var(--red); }
+.big-stat.warning { color: var(--amber); }
+.big-stat.success { color: var(--green); }
+.big-stat.neutral { color: var(--charcoal); }
+
+.badge {
+  display: inline-block; font-size: 0.7rem; font-weight: 600;
+  padding: 0.15rem 0.5rem; border-radius: 4px; letter-spacing: 0.03em;
+}
+.badge.green { background: var(--green-light); color: var(--green); }
+.badge.red { background: var(--red-light); color: var(--red); }
+.badge.amber { background: var(--amber-light); color: var(--amber); }
+
+table { width: 100%; border-collapse: collapse; font-size: 0.82rem; }
+table th {
+  background: var(--navy); color: var(--white);
+  font-weight: 600; font-size: 0.7rem; letter-spacing: 0.06em;
+  text-transform: uppercase; padding: 0.6rem 0.75rem; text-align: left;
+}
+table td { padding: 0.55rem 0.75rem; border-bottom: 1px solid var(--border); color: var(--text); }
+table tr:nth-child(even) td { background: var(--light-gray); }
+table tr.highlight td { background: #FDEEEA; font-weight: 600; color: var(--navy); }
+
+.issue-item {
+  display: flex; align-items: flex-start; gap: 0.5rem;
+  padding: 0.5rem 0; font-size: 0.82rem;
+  border-bottom: 1px solid var(--light-gray);
+}
+.issue-item:last-child { border-bottom: none; }
+.issue-icon {
+  width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.6rem; font-weight: 800; color: var(--white); margin-top: 1px;
+}
+.issue-icon.error { background: var(--red); }
+.issue-icon.warn { background: var(--amber); }
+
+.header-tree { font-family: 'JetBrains Mono', monospace; font-size: 0.78rem; line-height: 2; }
+.header-tree .tag { font-weight: 600; }
+.header-tree .h1 { color: var(--navy); }
+.header-tree .h2 { color: var(--blue); }
+.header-tree .h4 { color: var(--muted); }
+.header-tree .miss { color: var(--red); font-style: italic; font-weight: 600; }
+.header-tree .indent { padding-left: 1.5rem; }
+.header-tree .page-label {
+  display: block; color: var(--navy); font-weight: 700; margin-top: 0.5rem;
+  padding-top: 0.5rem; border-top: 1px solid var(--border);
+}
+.header-tree .page-label:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+
+.gap-hero { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem; }
+.gap-hero-card {
+  background: var(--white); border-radius: 12px; padding: 2rem;
+  text-align: center; border: 1px solid var(--border);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.gap-hero-card .number { font-size: 4rem; font-weight: 900; line-height: 1; letter-spacing: -0.03em; }
+.gap-hero-card .label { font-size: 1rem; font-weight: 600; color: var(--charcoal); margin-top: 0.25rem; }
+.gap-hero-card .sub { font-size: 0.8rem; color: var(--muted); margin-top: 0.25rem; }
+
+.rank-bar {
+  display: flex; align-items: center; gap: 0.75rem;
+  padding: 0.6rem 0.75rem; border-radius: 6px;
+  margin-bottom: 0.4rem; font-size: 0.85rem;
+}
+.rank-bar .name { flex: 1; font-weight: 500; }
+.rank-bar .score { font-weight: 800; font-size: 0.95rem; }
+.rank-bar.winner { background: var(--green-light); }
+.rank-bar.loser { background: var(--red-light); }
+.rank-bar.neutral { background: var(--light-gray); }
+
+.plan-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
+.plan-card {
+  background: var(--white); border-radius: 12px;
+  border: 1px solid var(--border); overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.plan-card-header {
+  background: var(--navy); padding: 1rem 1.25rem;
+  display: flex; align-items: center; gap: 0.75rem;
+}
+.plan-card-header .step { font-size: 1.4rem; font-weight: 900; color: rgba(255,255,255,0.4); }
+.plan-card-header .step-title {
+  font-size: 1rem; font-weight: 700; color: var(--white);
+  letter-spacing: 0.04em; text-transform: uppercase;
+}
+.plan-card-body { padding: 1.25rem; }
+.plan-card-body h4 { font-size: 0.9rem; font-weight: 700; color: var(--navy); margin-bottom: 0.75rem; }
+.plan-card-body ul { list-style: none; display: flex; flex-direction: column; gap: 0.4rem; }
+.plan-card-body li { font-size: 0.8rem; color: var(--text); padding-left: 1rem; position: relative; }
+.plan-card-body li::before { content: '•'; position: absolute; left: 0; color: var(--navy); font-weight: 700; }
+.plan-card-body .callout {
+  font-size: 0.75rem; color: var(--navy); font-style: italic;
+  margin-top: 1rem; padding-top: 0.75rem; border-top: 1px solid var(--border);
+}
+
+.full-divider { height: 4px; background: linear-gradient(90deg, var(--navy), var(--navy-light), var(--navy)); margin: 0; }
+
+.progress-bar { height: 6px; background: var(--light-gray); border-radius: 3px; overflow: hidden; margin-top: 0.5rem; }
+.progress-bar .fill { height: 100%; border-radius: 3px; }
+
+.share-bar { display: flex; height: 28px; border-radius: 6px; overflow: hidden; margin: 0.75rem 0; }
+.share-bar > div {
+  display: flex; align-items: center; justify-content: center;
+  font-size: 0.65rem; font-weight: 700; color: white;
+}
+
+@media (max-width: 900px) {
+  .cover { grid-template-columns: 1fr; }
+  .card-grid.cols-3, .card-grid.cols-4 { grid-template-columns: 1fr 1fr; }
+  .card-grid.cols-2-1, .card-grid.cols-1-2 { grid-template-columns: 1fr; }
+  .gap-hero, .plan-grid { grid-template-columns: 1fr; }
+  .cover-title { font-size: 2.2rem; }
+  section { padding: 2rem 1.5rem; }
+  .score-layout { grid-template-columns: 1fr !important; }
+  .cover-left::before, .cover-left .ring-aqua { display: none; }
+}
+
+@media print {
+  body { background: white; }
+  .cover { min-height: auto; page-break-after: always; }
+  section { page-break-inside: avoid; padding: 2rem 1rem; }
+  .full-divider { height: 2px; }
+  .card, .gap-hero-card, .plan-card, .summary-card { box-shadow: none; border: 1px solid #ddd; }
+  .share-bar > div { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  table th { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .progress-bar .fill { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}
+
+.amg-logo {
+  background-image: url("data:image/png;base64,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");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: block;
+}
+</style>
+</head>
+<body>
+
+
+
+
+<div class="cover">
+  <div class="cover-left">
+    <div class="ring-aqua"></div>
+    <div class="cover-logo">
+      <div class="amg-logo" style="width:230px;height:29px"></div>
+    </div>
+    <div class="cover-content">
+      <div class="cover-badge">Prepared for Bill &middot; Owner</div>
+      <h1 class="cover-title">
+        Digital Health &amp;<br>Performance<br><span style="display:inline;font-weight:800;font-size:inherit;letter-spacing:inherit;text-transform:none;margin:0;color:var(--coral)">Assessment</span>
+        <span>Gap Analysis &middot; Recommended Solution</span>
+      </h1>
+    </div>
+    <div class="cover-footer">
+      <div class="cover-divider"></div>
+      <div class="cover-client">Worlock Air Conditioning &amp; Heating</div>
+      <div class="cover-url">worlockair.com &middot; HVAC &middot; Peoria, AZ</div>
+      <div class="platform-tags">
+        <div class="platform-tag">Google</div>
+        <div class="platform-tag">AI Overviews</div>
+        <div class="platform-tag">ChatGPT</div>
+        <div class="platform-tag">Perplexity</div>
+        <div class="platform-tag">Voice</div>
+      </div>
+      <div style="font-size:0.72rem;color:rgba(255,255,255,0.25);margin-top:0.75rem;letter-spacing:0.04em">July 2026 &middot; Confidential</div>
+    </div>
+  </div>
+  <div class="cover-right">
+
+    
+    <div class="summary-card">
+      <h3>Audit Summary</h3>
+      <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:0.5rem">
+
+        <div style="border-top:3px solid var(--amber);border-radius:0 0 6px 6px;background:var(--light-gray);padding:0.6rem 0.65rem">
+          <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:0.2rem">Site Health</div>
+          <div style="font-size:1.15rem;font-weight:900;color:var(--amber);line-height:1">81%</div>
+          <div style="font-size:0.6rem;color:var(--muted);margin-top:0.1rem">4 of 326 pages healthy</div>
+        </div>
+
+        <div style="border-top:3px solid var(--red);border-radius:0 0 6px 6px;background:var(--light-gray);padding:0.6rem 0.65rem">
+          <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:0.2rem">Authority Score</div>
+          <div style="font-size:1.15rem;font-weight:900;color:var(--red);line-height:1">14</div>
+          <div style="font-size:0.6rem;color:var(--red);font-weight:700;margin-top:0.1rem">&#8595; Declining</div>
+        </div>
+
+        <div style="border-top:3px solid var(--text);border-radius:0 0 6px 6px;background:var(--light-gray);padding:0.6rem 0.65rem">
+          <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:0.2rem">Keywords</div>
+          <div style="font-size:1.15rem;font-weight:900;color:var(--text);line-height:1">606</div>
+          <div style="font-size:0.6rem;color:var(--green);font-weight:700;margin-top:0.1rem">&#8593; +20.83% MoM</div>
+        </div>
+
+        <div style="border-top:3px solid var(--red);border-radius:0 0 6px 6px;background:var(--light-gray);padding:0.6rem 0.65rem">
+          <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:0.2rem">Branded Traffic</div>
+          <div style="font-size:1.15rem;font-weight:900;color:var(--red);line-height:1">0%</div>
+          <div style="font-size:0.6rem;color:var(--muted);margin-top:0.1rem">no brand search volume</div>
+        </div>
+
+        <div style="border-top:3px solid var(--red);border-radius:0 0 6px 6px;background:var(--light-gray);padding:0.6rem 0.65rem">
+          <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:0.2rem">Organic Traffic</div>
+          <div style="font-size:1.15rem;font-weight:900;color:var(--red);line-height:1">145</div>
+          <div style="font-size:0.6rem;color:var(--muted);margin-top:0.1rem">visits / month</div>
+        </div>
+
+        <div style="border-top:3px solid var(--amber);border-radius:0 0 6px 6px;background:var(--light-gray);padding:0.6rem 0.65rem">
+          <div style="font-size:0.6rem;font-weight:700;letter-spacing:0.09em;text-transform:uppercase;color:var(--muted);margin-bottom:0.2rem">AI Visibility</div>
+          <div style="font-size:1.15rem;font-weight:900;color:var(--amber);line-height:1">82<span style="font-size:0.7rem;font-weight:600;color:var(--muted)">/100</span></div>
+          <div style="font-size:0.6rem;color:var(--amber);font-weight:600;margin-top:0.1rem">29 pages AI-blocked</div>
+        </div>
+
+      </div>
+    </div>
+
+    
+    <div class="summary-card">
+      <h3>Biggest Opportunities</h3>
+      <div style="display:flex;flex-direction:column;gap:0.5rem">
+        <div style="background:var(--red-light);border-left:3px solid var(--red);border-radius:0 6px 6px 0;padding:0.65rem 0.85rem">
+          <div style="font-size:0.6rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:var(--red);margin-bottom:0.25rem">Critical</div>
+          <div style="font-size:0.82rem;color:var(--text)"><strong>Authority Score falling &mdash; from ~20 to 14 over 12 months.</strong> 10,327 of 13,467 backlinks are nofollow spam. J&amp;M Cooling outranks Worlock with just 182 clean referring domains vs. Worlock&rsquo;s 573 spammy ones.</div>
+        </div>
+        <div style="background:var(--red-light);border-left:3px solid var(--red);border-radius:0 6px 6px 0;padding:0.65rem 0.85rem">
+          <div style="font-size:0.6rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:var(--red);margin-bottom:0.25rem">Critical</div>
+          <div style="font-size:0.82rem;color:var(--text)"><strong>96% of blog content is AI-generated</strong> &mdash; 188 posts, 276 flagged as thin. Google treats worlockair.com as a commodity site, suppressing rankings despite 606 keywords indexed.</div>
+        </div>
+        <div style="background:var(--amber-light);border-left:3px solid var(--amber);border-radius:0 6px 6px 0;padding:0.65rem 0.85rem">
+          <div style="font-size:0.6rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber);margin-bottom:0.25rem">High</div>
+          <div style="font-size:0.82rem;color:var(--text)"><strong>Geo-locked to Peoria while Phoenix&rsquo;s 4.8M-person market goes uncaptured.</strong> &ldquo;AC repair phoenix&rdquo; drives 1,900+ monthly searches. Current marketing company ignores it entirely.</div>
+        </div>
+        <div style="background:var(--amber-light);border-left:3px solid var(--amber);border-radius:0 6px 6px 0;padding:0.65rem 0.85rem">
+          <div style="font-size:0.6rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber);margin-bottom:0.25rem">High</div>
+          <div style="font-size:0.82rem;color:var(--text)"><strong>NAP chaos across 20+ directories</strong> &mdash; 11 listings carry wrong business names, 1 wrong phone number, and Bing Maps has no listing at all. The 4.8&#9733; GBP deserves citation infrastructure that matches it.</div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="summary-card">
+      <h3>Phoenix Metro Search Market</h3>
+      <div style="display:flex;align-items:baseline;gap:0.75rem;margin-bottom:0.65rem">
+        <div style="font-size:2.8rem;font-weight:900;color:var(--red);line-height:1;letter-spacing:-0.03em">6.3%</div>
+        <div style="font-size:0.78rem;color:var(--text);line-height:1.4">Worlock&rsquo;s share of<br>local traffic cluster</div>
+      </div>
+      <div style="height:18px;border-radius:4px;overflow:hidden;display:flex;margin-bottom:0.6rem">
+        <div style="width:43.1%;background:var(--charcoal);display:flex;align-items:center;padding-left:0.4rem"><span style="font-size:0.58rem;font-weight:700;color:#fff;white-space:nowrap">AC Solutions 43.1%</span></div>
+        <div style="width:29.9%;background:var(--navy);display:flex;align-items:center;padding-left:0.3rem"><span style="font-size:0.58rem;font-weight:700;color:#fff;white-space:nowrap">Air-Zona 29.9%</span></div>
+        <div style="width:20.7%;background:var(--muted);display:flex;align-items:center;padding-left:0.2rem"><span style="font-size:0.55rem;font-weight:700;color:#fff;white-space:nowrap">J&amp;M 20.7%</span></div>
+        <div style="width:6.3%;background:var(--red)"></div>
+      </div>
+      <div style="font-size:0.75rem;color:var(--muted);margin-bottom:0.75rem">For every homeowner who finds Worlock in search, <strong style="color:var(--text)">15 find a competitor.</strong></div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;font-size:0.76rem">
+        <div><span style="color:var(--muted)">Worlock traffic:</span> <strong style="color:var(--red)">145/mo</strong></div>
+        <div><span style="color:var(--muted)">AC Solutions traffic:</span> <strong style="color:var(--text)">993/mo</strong></div>
+        <div><span style="color:var(--muted)">Worlock keywords:</span> <strong style="color:var(--red)">606</strong></div>
+        <div><span style="color:var(--muted)">Air-Zona keywords:</span> <strong style="color:var(--text)">430</strong></div>
+      </div>
+    </div>
+
+  </div>
+</div>
+<div class="full-divider"></div>
+<div style="background:linear-gradient(135deg,var(--navy-dark) 0%,var(--navy) 100%);border-top:3px solid var(--coral);padding:0 3rem">
+  <div style="max-width:1300px;margin:0 auto;display:flex;align-items:stretch">
+
+    
+    <div style="display:flex;align-items:center;padding:1.6rem 2.5rem 1.6rem 0;border-right:1px solid rgba(255,255,255,0.08);flex-shrink:0">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 334.9 63.9" style="width:170px;height:32px;display:block">
+        <defs><style>.ib-cls-1{fill:none}.ib-cls-2{fill:#fff}.ib-cls-3{fill:#FF5A3C}</style></defs>
+        <g>
+          <g>
+            <g>
+              <path class="ib-cls-3" d="M247,39.4c-5.6,0-11.3-2-15.7-5.9l4.8-5.8c3.3,2.8,6.8,4.5,11.1,4.5,3.3,0,5.3-1.3,5.3-3.5v-.1c0-2.1-1.3-3.1-7.4-4.7-7.4-1.9-12.3-4-12.3-11.3v-.1c0-6.7,5.4-11.1,12.9-11.1,5.4,0,10,1.7,13.7,4.7l-4.2,6.1c-3.3-2.3-6.5-3.6-9.6-3.6s-4.8,1.4-4.8,3.2v.1c0,2.4,1.6,3.2,8,4.9,7.5,2,11.7,4.6,11.7,11.1v.1c.1,7.3-5.5,11.4-13.5,11.4z"/>
+              <path class="ib-cls-3" d="M279.1,38.9h-14.4V1.9h14.4c11.6,0,19.7,8,19.7,18.4v.1c0,10.4-8.1,18.5-19.7,18.5zM290.3,20.4c0-6.6-4.5-11.1-11.1-11.1h-6.3v22.3h6.3c6.6,0,11.1-4.5,11.1-11.2z"/>
+              <path class="ib-cls-3" d="M325.3,38.9l-7.9-11.8h-6.4v11.8h-8.1V1.9h16.9c8.7,0,14,4.6,14,12.2v.1c0,6-3.2,9.7-7.9,11.5l9,13.2h-9.6zM325.5,14.5c0-3.5-2.4-5.3-6.4-5.3h-8.1v10.6h8.2c4,0,6.2-2.1,6.2-5.2v-.1z"/>
+            </g>
+            <g>
+              <path class="ib-cls-2" d="M0,50h4.4c4.3,0,7.3,3,7.3,6.8h0c0,3.8-3,6.8-7.2,6.8H0v-13.6zM4.5,63c3.9,0,6.6-2.7,6.6-6.2h0c0-3.5-2.6-6.2-6.6-6.2H.7v12.4h3.8z"/>
+              <path class="ib-cls-2" d="M16.6,50h.7v13.6h-.7v-13.6z"/>
+              <path class="ib-cls-2" d="M22.2,56.8h0c0-3.7,2.6-7.1,6.7-7.1,2.1,0,3.5.6,4.8,1.8l-.3.5c-1.2-1-2.4-1.7-4.4-1.7-3.6,0-6,3.1-6,6.4h0c0,3.5,2.3,6.5,6.1,6.5,1.9,0,3.6-.8,4.7-1.8v-4.2h-4.9v-.6h5.5v5.1c-1.3,1.2-3.1,2.1-5.3,2.1-4.4.1-6.9-3.1-6.9-7z"/>
+              <path class="ib-cls-2" d="M39.5,50h.7v13.6h-.7v-13.6z"/>
+              <path class="ib-cls-2" d="M49.3,50.6h-4.8v-.6h10.4v.6h-4.9v13h-.7v-13z"/>
+              <path class="ib-cls-2" d="M62.4,49.9h.6l6.5,13.7h-.7l-1.8-4h-8.4l-1.9,4h-.7l6.4-13.7zM66.6,59l-3.9-8.4-3.9,8.4h7.8z"/>
+              <path class="ib-cls-2" d="M73.6,50h.7v13h8.2v.6h-8.9v-13.6z"/>
+              <path class="ib-cls-2" d="M92.7,61.6l.4-.5c1.4,1.4,3,2.1,5,2.1,2.4,0,3.9-1.3,3.9-3h0c0-1.6-.9-2.5-4.2-3.1-3.3-.7-4.6-1.7-4.6-3.7h0c0-2,1.8-3.5,4.4-3.5,1.9,0,3.3.6,4.6,1.6l-.4.5c-1.2-1-2.7-1.5-4.3-1.5-2.2,0-3.7,1.3-3.7,2.9h0c0,1.6.9,2.5,4.2,3.1,3.4.7,4.6,1.8,4.6,3.7h0c0,2.1-1.8,3.7-4.6,3.7-1.9-.1-3.7-.8-5.3-2.3z"/>
+              <path class="ib-cls-2" d="M107.4,50h9.6v.6h-8.9v5.9h8.1v.6h-8.1v6h9v.6h-9.7v-13.7z"/>
+              <path class="ib-cls-2" d="M127,49.9h.6l6.5,13.7h-.7l-1.9-4h-8.4l-1.9,4h-.7l6.5-13.7zM131.2,59l-3.9-8.4-3.9,8.4h7.8z"/>
+              <path class="ib-cls-2" d="M138.2,50h5.6c1.7,0,3.1.5,3.9,1.3.6.6,1,1.5,1,2.5h0c0,2.3-1.8,3.6-4.3,3.9l4.5,5.9h-.8l-4.4-5.8h-4.8v5.8h-.7v-13.6zM143.7,57.2c2.8,0,4.4-1.4,4.4-3.3h0c0-2-1.6-3.3-4.3-3.3h-4.9v6.6h4.8z"/>
+              <path class="ib-cls-2" d="M152.9,56.8h0c0-3.9,2.9-7.1,6.7-7.1,2.5,0,3.9.9,5.2,2.2l-.5.5c-1.1-1.1-2.5-2-4.8-2-3.5,0-6,2.9-6,6.4h0c0,3.5,2.6,6.4,6.1,6.4,2.1,0,3.6-.9,4.9-2.2l.5.5c-1.3,1.3-2.9,2.3-5.4,2.3-3.8.1-6.7-3.1-6.7-7z"/>
+              <path class="ib-cls-2" d="M169.1,50h.7v6.5h9.3v-6.5h.7v13.6h-.7v-6.6h-9.3v6.6h-.7v-13.6z"/>
+              <path class="ib-cls-2" d="M195.7,50.6h-4.9v-.6h10.4v.6h-4.9v13h-.7v-13z"/>
+              <path class="ib-cls-2" d="M205.4,50h.7v6.5h9.3v-6.5h.7v13.6h-.7v-6.6h-9.4v6.6h-.7v-13.6z"/>
+              <path class="ib-cls-2" d="M226.6,49.9h.6l6.5,13.7h-.7l-1.9-4h-8.4l-1.9,4h-.7l6.5-13.7zM230.9,59l-3.9-8.4-4,8.4h7.9z"/>
+              <path class="ib-cls-2" d="M239.7,50.6h-4.9v-.6h10.4v.6h-4.9v13h-.7v-13z"/>
+              <path class="ib-cls-2" d="M255.2,50h.7l4.3,12.7,4.1-12.7h.5l4.1,12.8,4.3-12.7h.7l-4.7,13.7h-.5l-4.1-12.5-4.1,12.5h-.5l-4.8-13.8z"/>
+              <path class="ib-cls-2" d="M276.8,56.8h0c0-3.8,2.7-7.1,6.8-7.1s6.8,3.3,6.8,7h0c0,3.7-2.7,7-6.8,7s-6.8-3.1-6.8-6.9zM289.8,56.9h0c0-3.5-2.5-6.5-6.1-6.5s-6.1,3-6.1,6.4h0c0,3.5,2.5,6.5,6.2,6.5s6-3,6-6.4z"/>
+              <path class="ib-cls-2" d="M295.3,50h5.6c1.7,0,3.1.5,3.9,1.3.6.6,1,1.5,1,2.5h0c0,2.3-1.8,3.6-4.3,3.9l4.5,5.9h-.8l-4.4-5.8h-4.8v5.8h-.7v-13.6zM300.7,57.2c2.8,0,4.4-1.4,4.4-3.3h0c0-2-1.6-3.3-4.3-3.3h-4.9v6.6h4.8z"/>
+              <path class="ib-cls-2" d="M310.7,50h.7v9.1l9.1-9.1h.9l-5.9,5.9,6.2,7.8h-.9l-5.8-7.3-3.6,3.6v3.7h-.7v-13.7z"/>
+              <path class="ib-cls-2" d="M324.8,61.6l.5-.5c1.4,1.4,3,2.1,5,2.1,2.4,0,3.9-1.3,3.9-3h0c0-1.6-.9-2.5-4.2-3.1-3.3-.7-4.6-1.7-4.6-3.7h0c0-2,1.9-3.5,4.4-3.5,1.9,0,3.4.6,4.6,1.6l-.4.5c-1.2-1-2.7-1.5-4.3-1.5-2.2,0-3.7,1.3-3.7,2.9h0c0,1.6.9,2.5,4.2,3.1,3.4.7,4.6,1.8,4.6,3.7h0c0,2.1-1.8,3.7-4.6,3.7-2.1-.1-3.8-.8-5.4-2.3z"/>
+            </g>
+            <path class="ib-cls-2" d="M147.9,24.5c0,8.9-4.8,13.4-12.2,13.4s-12.5-5-12.5-13.7V3h-2.7v21.5c0,10.3,6.3,15.9,15.1,15.9s15.1-5.6,15.1-16.2V3h-2.7l-.1,21.5z"/>
+            <polygon class="ib-cls-2" points="184.1 35 158.7 3 156.2 3 156.2 39.8 158.8 39.8 158.8 7.1 184.7 39.8 186.8 39.8 186.8 3 184.1 3 184.1 35"/>
+            <path class="ib-cls-2" d="M204.5,3h-12.2v36.8h12.2c11.6,0,19.6-8,19.6-18.4v-.1c0-10.3-8-18.3-19.6-18.3zM221.2,21.5c0,8.8-6.5,15.8-16.7,15.8h-9.5V5.5h9.5c10.2,0,16.7,7.2,16.7,15.9v.1z"/>
+            <path class="ib-cls-2" d="M65.6,20.9c3-1.2,6.3-3.7,6.3-8.7v-.1c0-5.5-4.8-9-11.9-9h-15.3v36.8h16c7.9,0,13.2-3.9,13.2-10v-.1c0-5.2-3.9-7.8-8.3-8.9zM47.4,5.5h12.4c5.9,0,9.2,2.7,9.2,6.8v.1c0,4.9-3.9,7.6-9.5,7.6h-12.1V5.5zM71.1,29.8c0,4.6-4,7.5-10.3,7.5h-13.4v-14.8h12.5c7.2,0,11.2,2.6,11.2,7.1v.2z"/>
+            <rect class="ib-cls-2" x="0" y="3" width="2.7" height="36.8"/>
+            <polygon class="ib-cls-2" points="36.4 35 11 3 8.4 3 8.4 39.8 11 39.8 11 7.1 37 39.8 39 39.8 39 3 36.4 3 36.4 35"/>
+            <g>
+              <path class="ib-cls-2" d="M96.4,0c-11.6,0-20.9,9.4-20.9,20.9s9.4,20.9,20.9,20.9c1.5,0,3-.2,4.4-.5-.1-.1-.1-.2-.2-.3l-.9-2.8c-.7.7-1.5,1.1-2.3,1.3v-8.8l-.6-1.9-.8-2.7-.7-2.3v4.5c-2.4,0-4.8.2-7,.6-.5-2.1-.8-4.5-.9-6.9h7.3l-.2-.6c-.2-.5-.1-1,.1-1.5h-7.2c.1-2.5.4-4.8.9-6.9,2.2.3,4.6.5,7,.6v5.4c.4-.3.8-.4,1.2-.4.3,0,.6.1.9.2v-5.4c2.4,0,4.8-.2,7-.6.5,2.1.8,4.5.9,6.9h-6.2l1.4.9,2.1,1.3h2.7c0,.5,0,1-.1,1.5l.6.4,1.4.9c.1-.9.2-1.8.2-2.8h7.6c-.1,2.3-.7,4.5-1.6,6.5l.1.1,1.6,1s.1,0,.1.1c1.2-2.6,1.9-5.6,1.9-8.7.1-11.6-9.2-20.9-20.7-20.9zM80.5,10.9c1.6.7,3.5,1.2,5.6,1.6-.5,2.2-.8,4.7-.9,7.3h-7.6c.2-3.3,1.3-6.3,2.9-8.9zM80.5,30.9c-1.7-2.6-2.7-5.7-2.9-9h7.6c.1,2.6.4,5.1.9,7.3-2.1.5-4,1.1-5.6,1.7zM95.3,30.5v9c-2.7-.7-5-3.9-6.4-8.5,2-.3,4.2-.5,6.4-.5zM90.4,38.7c-3.4-1.1-6.4-3.2-8.6-6,1.4-.5,3.1-1,4.8-1.4,1,3,2.3,5.6,3.8,7.4zM86.7,10.4c-1.8-.4-3.4-.8-4.8-1.4,2.2-2.7,5.2-4.8,8.6-6-1.6,1.9-2.9,4.4-3.8,7.4zM95.3,11.3c-2.2,0-4.4-.2-6.4-.5,1.4-4.6,3.8-7.8,6.4-8.5v9zM97.4,11.3V2.3c2.7.7,5,3.9,6.4,8.5-2,.3-4.2.4-6.4.5zM102.3,3.1c3.4,1.1,6.4,3.2,8.6,6-1.4.5-3,1-4.8,1.4-1-3.1-2.3-5.6-3.8-7.4zM107.5,19.8c-.1-2.6-.4-5.1-.9-7.3,2.1-.4,4-1,5.6-1.6,1.7,2.6,2.7,5.7,2.9,8.9h-7.6z"/>
+              <path class="ib-cls-3" d="M114.4,30.8l-1.6-1-5.7-3.4-2-1.2-5.3-3.2-2.9-1.8c-.1-.1-.2-.1-.3-.1-.4,0-.7.4-.6.8l1.5,4.8.8,2.7.7,2.2,2,6.4,1.1,3.6c.1.2.2.3.4.4h.2c.2,0,.3-.1.4-.2l.1-.1,2.1-4,2.4,3c.1.2.3.2.5.2.1,0,.3,0,.4-.1l3.3-2.7c.3-.2.3-.6.1-.9l-2.4-3,4.3-1.1h.1l.2-.1c.4-.1.6-.6.3-.9c0-.2,0-.3-.1-.3z"/>
+            </g>
+          </g>
+        </g>
+      </svg>
+    </div>
+
+    
+    <div style="flex:1;display:flex;align-items:stretch">
+
+      <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:1.6rem 1rem;border-right:1px solid rgba(255,255,255,0.08);gap:0.2rem">
+        <div style="width:24px;height:2px;background:var(--coral);border-radius:2px;margin-bottom:0.35rem"></div>
+        <div style="font-size:1.55rem;font-weight:900;color:var(--white);letter-spacing:-0.02em;line-height:1">2,000+</div>
+        <div style="font-size:0.6rem;font-weight:600;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.12em">Active Clients</div>
+      </div>
+
+      <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:1.6rem 1rem;border-right:1px solid rgba(255,255,255,0.08);gap:0.2rem">
+        <div style="width:24px;height:2px;background:var(--coral);border-radius:2px;margin-bottom:0.35rem"></div>
+        <div style="font-size:1.55rem;font-weight:900;color:var(--white);letter-spacing:-0.02em;line-height:1">$1B+</div>
+        <div style="font-size:0.6rem;font-weight:600;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.12em">Revenue Generated</div>
+      </div>
+
+      <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:1.6rem 1rem;border-right:1px solid rgba(255,255,255,0.08);gap:0.2rem;background:rgba(255,90,60,0.12)">
+        <div style="width:24px;height:2px;background:var(--aqua);border-radius:2px;margin-bottom:0.35rem"></div>
+        <div style="font-size:1.55rem;font-weight:900;color:var(--white);letter-spacing:-0.02em;line-height:1">3.55x</div>
+        <div style="font-size:0.6rem;font-weight:600;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.12em">Avg. Client ROI</div>
+      </div>
+
+      <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:1.6rem 1rem;border-right:1px solid rgba(255,255,255,0.08);gap:0.2rem">
+        <div style="width:24px;height:2px;background:var(--coral);border-radius:2px;margin-bottom:0.35rem"></div>
+        <div style="font-size:1.55rem;font-weight:900;color:var(--white);letter-spacing:-0.02em;line-height:1">200+</div>
+        <div style="font-size:0.6rem;font-weight:600;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.12em">Industry Awards</div>
+      </div>
+
+      <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:1.6rem 1rem;border-right:1px solid rgba(255,255,255,0.08);gap:0.2rem">
+        <div style="width:24px;height:2px;background:var(--coral);border-radius:2px;margin-bottom:0.35rem"></div>
+        <div style="font-size:1.55rem;font-weight:900;color:var(--white);letter-spacing:-0.02em;line-height:1">Inc. 5000</div>
+        <div style="font-size:0.6rem;font-weight:600;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.12em">10&times; Honoree</div>
+      </div>
+
+      <div style="flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:1.6rem 1rem;gap:0.2rem">
+        <div style="width:24px;height:2px;background:var(--coral);border-radius:2px;margin-bottom:0.35rem"></div>
+        <div style="font-size:1.55rem;font-weight:900;color:var(--white);letter-spacing:-0.02em;line-height:1">100K+</div>
+        <div style="font-size:0.6rem;font-weight:600;color:rgba(255,255,255,0.45);text-transform:uppercase;letter-spacing:0.12em">Appointments / Year</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+<section>
+  <div class="section-header">
+    <div class="section-number" style="background:var(--navy-dark)">&#9733;</div>
+    <h2 class="section-title">Digital Health Score</h2>
+  </div>
+
+  <div class="score-layout" style="display:grid;grid-template-columns:280px 1fr;gap:2rem;align-items:start">
+    <div class="card" style="text-align:center;padding:2rem">
+      <div style="position:relative;width:180px;height:180px;margin:0 auto 1rem">
+        
+        <!-- HEALTH_COLOR_HEX rule: <40 #D43A1E (coral) / 40-69 #D4920A (amber) / 70+ #0B857B (aqua-deep) -->
+        <svg viewBox="0 0 120 120" style="transform:rotate(-90deg)">
+          <circle cx="60" cy="60" r="52" fill="none" stroke="#E2E4EA" stroke-width="10"/>
+          <circle cx="60" cy="60" r="52" fill="none" stroke="#D4920A" stroke-width="10"
+                  stroke-dasharray="327" stroke-dashoffset="190" stroke-linecap="round"/>
+        </svg>
+        <div style="position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center">
+          <div style="font-size:3rem;font-weight:900;color:var(--amber);line-height:1">42</div>
+          <div style="font-size:0.75rem;color:var(--muted);font-weight:600">out of 100</div>
+        </div>
+      </div>
+      <div style="font-size:1.1rem;font-weight:800;color:var(--amber)">NEEDS WORK</div>
+      
+      <p style="font-size:0.88rem;color:var(--text);line-height:1.6;margin-top:0.5rem">Declining domain authority from spammy backlinks, commodity AI-generated content, and a Peoria-only geo-strategy are costing Bill the Phoenix leads he&rsquo;s paying LSA to generate.</p>
+      
+    </div>
+
+    
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.75rem">
+
+      <div class="card" style="padding:1rem 1.25rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+          <div>
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted)">Site Health</div>
+            <div style="font-size:0.82rem;color:var(--text);margin-top:0.15rem">81% Semrush score; 183 errors &middot; 1,394 warnings; only 4 of 326 pages healthy</div>
+          </div>
+          <div style="font-size:1.6rem;font-weight:800;color:var(--amber)">62<span style="font-size:0.8rem;color:var(--muted)">/100</span></div>
+        </div>
+        <div class="progress-bar"><div class="fill" style="width:62%;background:var(--amber)"></div></div>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+          <div>
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted)">Site Speed</div>
+            <div style="font-size:0.82rem;color:var(--text);margin-top:0.15rem">GTmetrix A (99%) &middot; 1.6s fully loaded &middot; TTFB 98ms &middot; LCP 532ms</div>
+          </div>
+          <div style="font-size:1.6rem;font-weight:800;color:var(--green)">88<span style="font-size:0.8rem;color:var(--muted)">/100</span></div>
+        </div>
+        <div class="progress-bar"><div class="fill" style="width:88%;background:var(--green)"></div></div>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+          <div>
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted)">Keyword Visibility</div>
+            <div style="font-size:0.82rem;color:var(--text);margin-top:0.15rem">606 keywords; only 145 visits/mo &mdash; Phoenix metro barely captured</div>
+          </div>
+          <div style="font-size:1.6rem;font-weight:800;color:var(--red)">22<span style="font-size:0.8rem;color:var(--muted)">/100</span></div>
+        </div>
+        <div class="progress-bar"><div class="fill" style="width:22%;background:var(--red)"></div></div>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+          <div>
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted)">Content Strategy</div>
+            <div style="font-size:0.82rem;color:var(--text);margin-top:0.15rem">188 blogs, 96% AI-generated; 276 thin pages; geo-locked to Peoria</div>
+          </div>
+          <div style="font-size:1.6rem;font-weight:800;color:var(--red)">18<span style="font-size:0.8rem;color:var(--muted)">/100</span></div>
+        </div>
+        <div class="progress-bar"><div class="fill" style="width:18%;background:var(--red)"></div></div>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+          <div>
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted)">Local SEO</div>
+            <div style="font-size:0.82rem;color:var(--text);margin-top:0.15rem">4.8&#9733; / 299 reviews (strong!); 11 listings wrong name; absent from Bing</div>
+          </div>
+          <div style="font-size:1.6rem;font-weight:800;color:var(--red)">32<span style="font-size:0.8rem;color:var(--muted)">/100</span></div>
+        </div>
+        <div class="progress-bar"><div class="fill" style="width:32%;background:var(--red)"></div></div>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+          <div>
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted)">Competitive Position</div>
+            <div style="font-size:0.82rem;color:var(--text);margin-top:0.15rem">6.3% of traffic cluster; J&amp;M achieves AS 18 with fewer, cleaner links</div>
+          </div>
+          <div style="font-size:1.6rem;font-weight:800;color:var(--red)">25<span style="font-size:0.8rem;color:var(--muted)">/100</span></div>
+        </div>
+        <div class="progress-bar"><div class="fill" style="width:25%;background:var(--red)"></div></div>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+          <div>
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted)">Security &amp; Technical</div>
+            <div style="font-size:0.82rem;color:var(--text);margin-top:0.15rem">HTTPS &#10003; but 167 schema errors; no Local schema on service pages</div>
+          </div>
+          <div style="font-size:1.6rem;font-weight:800;color:var(--amber)">50<span style="font-size:0.8rem;color:var(--muted)">/100</span></div>
+        </div>
+        <div class="progress-bar"><div class="fill" style="width:50%;background:var(--amber)"></div></div>
+      </div>
+
+      <div class="card" style="padding:1rem 1.25rem">
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.5rem">
+          <div>
+            <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.08em;text-transform:uppercase;color:var(--muted)">AI Search Readiness</div>
+            <div style="font-size:0.82rem;color:var(--text);margin-top:0.15rem">82% Semrush AI Health; 29 pages blocked from ChatGPT, Perplexity, Google</div>
+          </div>
+          <div style="font-size:1.6rem;font-weight:800;color:var(--amber)">45<span style="font-size:0.8rem;color:var(--muted)">/100</span></div>
+        </div>
+        <div class="progress-bar"><div class="fill" style="width:45%;background:var(--amber)"></div></div>
+      </div>
+
+    </div>
+  </div>
+
+  <div style="display:flex;gap:2rem;margin-top:1.5rem;justify-content:center">
+    <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.75rem;color:var(--muted)">
+      <div style="width:12px;height:12px;border-radius:3px;background:var(--green)"></div> 70&ndash;100 Strong
+    </div>
+    <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.75rem;color:var(--muted)">
+      <div style="width:12px;height:12px;border-radius:3px;background:var(--amber)"></div> 40&ndash;69 Needs Work
+    </div>
+    <div style="display:flex;align-items:center;gap:0.4rem;font-size:0.75rem;color:var(--muted)">
+      <div style="width:12px;height:12px;border-radius:3px;background:var(--red)"></div> 0&ndash;39 Critical
+    </div>
+  </div>
+</section>
+<div class="full-divider"></div>
+<section>
+  <div class="section-header">
+    <div class="section-number">01</div>
+    <h2 class="section-title">Website Performance</h2>
+  </div>
+
+  
+  <div class="card-grid cols-4" style="margin-bottom:1rem">
+    <div class="card">
+      <div class="card-label"><span class="dot green"></span> CMS Platform</div>
+      <div class="big-stat success" style="font-size:2rem">WordPress</div>
+      <div class="stat-sub">WP Engine hosting &middot; solid infrastructure &middot; no rebuild needed</div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span class="dot amber"></span> Pages Crawled</div>
+      <div class="big-stat warning">326</div>
+      <div class="stat-sub">4 healthy &middot; 279 have issues &middot; 12 redirects &middot; 2 broken &middot; 29 AI-blocked</div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span class="dot green"></span> GTmetrix Grade</div>
+      <div class="big-stat success" style="font-size:2.5rem">A</div>
+      <div class="stat-sub">Performance 100% &middot; 1.6s load &middot; TTFB 98ms &middot; LCP 532ms</div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span class="dot amber"></span> Security &amp; Schema</div>
+      <div class="big-stat success" style="font-size:2rem">HTTPS Active</div>
+      <div class="stat-sub">Secure &#10003; &mdash; but 167 pages have invalid schema markup</div>
+    </div>
+  </div>
+
+  <div class="card-grid cols-2">
+    <div class="card">
+      <div class="issue-item"><div class="issue-icon error">!</div><div><strong>167 pages with invalid structured data</strong> &mdash; Local Business and Service schema contain markup errors; search engines can&rsquo;t parse rich results</div></div>
+      <div class="issue-item"><div class="issue-icon error">!</div><div><strong>9 pages with duplicate meta descriptions</strong> &mdash; dilutes click-through signals across service and location pages</div></div>
+      <div class="issue-item"><div class="issue-icon error">!</div><div><strong>3 pages with duplicate title tags</strong> &mdash; competing pages splitting ranking signals</div></div>
+      <div class="issue-item"><div class="issue-icon warn">!</div><div><strong>276 pages with low text-to-HTML ratio</strong> &mdash; thin content flag; the vast majority of the site&rsquo;s 326 pages are under-resourced</div></div>
+      <div class="issue-item"><div class="issue-icon warn">!</div><div><strong>1,011 unminified JavaScript &amp; CSS files</strong> &mdash; unnecessary page-weight adding latency on slower connections</div></div>
+      <div class="issue-item"><div class="issue-icon warn">!</div><div><strong>29 pages blocked from AI search crawlers</strong> &mdash; ChatGPT-User, OAI-SearchBot, Google-Extended, and PerplexityBot are all denied access</div></div>
+      <div class="issue-item"><div class="issue-icon warn">!</div><div><strong>50 nofollow attributes on internal links</strong> &mdash; diluting page authority flow across key service and location pages</div></div>
+      <div class="issue-item"><div class="issue-icon warn">!</div><div><strong>20 broken external links</strong> &mdash; outbound dead ends reduce trust signals and E-E-A-T credibility</div></div>
+    </div>
+    <div class="card">
+      <p style="font-size:0.85rem;color:var(--text);margin-bottom:1rem">worlockair.com runs on solid technical infrastructure &mdash; WordPress on WP Engine, GTmetrix Grade A, and HTTPS throughout. The performance foundation is actually a strength. The problems are on-page: <strong>183 errors and 1,394 warnings</strong> flagged across 326 crawled pages, with only 4 fully healthy. The most urgent issue is schema &mdash; 167 pages carry invalid structured data, blocking rich result eligibility for every service and location page on the site.</p>
+      <div class="audit-grid">
+        <div class="ag-label">Site Health Score</div><div class="ag-value" style="color:var(--amber)">81%</div>
+        <div class="ag-label">HTTPS Coverage</div><div class="ag-value" style="color:var(--green)">100%</div>
+        <div class="ag-label">Fully Healthy Pages</div><div class="ag-value" style="color:var(--red)">4 / 326</div>
+        <div class="ag-label">Pages With Issues</div><div class="ag-value" style="color:var(--red)">279</div>
+        <div class="ag-label">AI Search Health</div><div class="ag-value" style="color:var(--amber)">82%</div>
+        <div class="ag-label">Top-10% Benchmark</div><div class="ag-value" style="color:var(--muted)">92%</div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="full-divider"></div>
+<section>
+  <div class="section-header">
+    <div class="section-number">02</div>
+    <h2 class="section-title">Keywords &amp; Traffic</h2>
+  </div>
+
+  <div class="card-grid cols-3" style="margin-bottom:1rem">
+    <div class="card">
+      <div class="card-label"><span class="dot amber"></span> Total Organic Keywords</div>
+      <div class="big-stat neutral">606</div>
+      <div class="stat-sub">+20.83% MoM; 245 stuck on pages 3&ndash;5 &middot; only 63 in top 10</div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span class="dot red"></span> Organic Traffic</div>
+      <div class="big-stat danger">145<span style="font-size:1.2rem">/mo</span></div>
+      <div class="stat-sub">+20.83% MoM; traffic cost $1,073/mo &middot; well below market potential</div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span class="dot red"></span> Authority Score</div>
+      <div class="big-stat danger">14</div>
+      <div class="stat-sub">13,467 backlinks &middot; 573 referring domains &middot; declining from ~20</div>
+    </div>
+  </div>
+
+  <div class="card-grid cols-2">
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot amber"></span> Top Organic Keywords</div>
+      <table>
+        <thead><tr><th>Keyword</th><th>Volume</th><th>Position</th><th>Intent</th><th>Traffic</th></tr></thead>
+        <tbody>
+          <tr><td>ac repair peoria az</td><td>390</td><td style="color:var(--amber);font-weight:700">#6</td><td>Commercial</td><td>8 visits</td></tr>
+          <tr><td>how much is a new ac unit in arizona</td><td>30</td><td style="color:var(--green);font-weight:700">#1</td><td>Informational</td><td>7 visits</td></tr>
+          <tr><td>ac replacement cost phoenix az</td><td>50</td><td style="color:var(--green);font-weight:700">#2</td><td>Commercial</td><td>4 visits</td></tr>
+          <tr><td>az patio heaters peoria az</td><td>480</td><td style="color:var(--amber);font-weight:700">#5</td><td>Commercial</td><td>4 visits</td></tr>
+          <tr><td>air conditioning repair peoria az</td><td>260</td><td style="color:var(--amber);font-weight:700">#8</td><td>Commercial</td><td>3 visits</td></tr>
+          <tr><td>ac repair peoria</td><td>480</td><td style="color:var(--red);font-weight:700">#60</td><td>Commercial</td><td>&lt;1 visit</td></tr>
+          <tr><td>air conditioning phoenix</td><td>590</td><td style="color:var(--amber);font-weight:700">#5 PAA</td><td>Commercial</td><td>&lt;1 visit</td></tr>
+          <tr><td>hvac peoria az</td><td>210</td><td style="color:var(--red);font-weight:700">#23</td><td>Commercial</td><td>&lt;1 visit</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card">
+      <div class="card-label"><span class="dot red"></span> Branded vs. Non-Branded</div>
+      <div style="display:flex;gap:2rem;margin-bottom:1rem">
+        <div>
+          <div class="big-stat sm danger">0%</div>
+          <div class="stat-sub">Branded &mdash; 0 visits</div>
+        </div>
+        <div>
+          <div class="big-stat sm warning">100%</div>
+          <div class="stat-sub">Non-branded &mdash; 145 visits</div>
+        </div>
+      </div>
+      <div class="share-bar">
+        <div style="width:0%;background:var(--navy)"></div>
+        <div style="width:100%;background:var(--red)">Non-branded 100%</div>
+      </div>
+      <div style="margin-top:1rem">
+        <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.5rem">Keywords by Intent</div>
+        <table>
+          <thead><tr><th>Intent</th><th>Keywords</th><th>Share</th><th>Traffic</th></tr></thead>
+          <tbody>
+            <tr><td>Informational</td><td>137</td><td>21.1%</td><td>75</td></tr>
+            <tr><td>Navigational</td><td>13</td><td>2.0%</td><td>5</td></tr>
+            <tr style="background:var(--amber-light)"><td style="font-weight:700;color:var(--amber)">Commercial</td><td>468</td><td>72.1%</td><td>85</td></tr>
+            <tr><td>Transactional</td><td>21</td><td>4.8%</td><td>—</td></tr>
+          </tbody>
+        </table>
+        <p style="font-size:0.78rem;color:var(--muted);margin-top:0.6rem">72% commercial intent means Bill&rsquo;s visitors are ready to buy &mdash; the problem is there aren&rsquo;t nearly enough of them reaching the site.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="full-divider"></div>
+<section>
+  <div class="section-header">
+    <div class="section-number">03</div>
+    <h2 class="section-title">Competitor Keyword Gap</h2>
+  </div>
+
+  <div class="gap-hero">
+    <div class="gap-hero-card">
+      <div class="number" style="color:var(--red)">30</div>
+      <div class="label">Peoria HVAC Keywords<br>Where Competitors Outrank Worlock</div>
+    </div>
+    <div class="gap-hero-card">
+      <div class="number" style="color:var(--amber)">3,670</div>
+      <div class="label">Monthly Searches in<br>Peoria Keyword Gap</div>
+    </div>
+    <div class="gap-hero-card">
+      <div class="number" style="color:var(--red)">6.3%</div>
+      <div class="label">Worlock&rsquo;s Share of<br>Local Traffic Cluster</div>
+    </div>
+  </div>
+
+  <p style="font-size:0.88rem;color:var(--text);line-height:1.65;max-width:780px;margin-bottom:1.25rem">How Worlock stacks up against the three Peoria HVAC competitors capturing local search demand &mdash; and why more keywords doesn&rsquo;t mean more traffic. The Peoria gap is fixable. The Phoenix opportunity is the growth story.</p>
+
+  <div class="card span-4">
+    <table>
+      <thead><tr><th>Domain</th><th>Auth. Score</th><th>Keywords</th><th>Traffic/mo</th><th>Ref. Domains</th><th>Cluster Share</th></tr></thead>
+      <tbody>
+        <tr class="highlight">
+          <td><strong>Worlock Air (worlockair.com)</strong></td><td style="color:var(--red)">14 &#8595;</td><td>606</td><td style="color:var(--red)">145</td><td>573</td><td style="color:var(--red);font-weight:700">6.3%</td>
+        </tr>
+        <tr><td>AC Solutions (acsolutionsinc.net)</td><td>11</td><td>143</td><td style="color:var(--green);font-weight:600">993</td><td>183</td><td>43.1%</td></tr>
+        <tr><td>Air-Zona (air-zona.net)</td><td>10</td><td>430</td><td>689</td><td>219</td><td>29.9%</td></tr>
+        <tr><td>J&amp;M Cooling (jandmcoolingandheating.com)</td><td style="color:var(--green);font-weight:600">18</td><td>218</td><td>478</td><td>182</td><td>20.7%</td></tr>
+      </tbody>
+    </table>
+    <div class="share-bar" style="margin-top:1rem">
+      <div style="width:43.1%;background:var(--charcoal);display:flex;align-items:center;justify-content:center"><span style="font-size:0.65rem;font-weight:700;color:#fff">AC Solutions 43.1%</span></div>
+      <div style="width:29.9%;background:var(--navy);display:flex;align-items:center;justify-content:center"><span style="font-size:0.65rem;font-weight:700;color:#fff">Air-Zona 29.9%</span></div>
+      <div style="width:20.7%;background:var(--muted);display:flex;align-items:center;justify-content:center"><span style="font-size:0.6rem;font-weight:700;color:#fff">J&amp;M 20.7%</span></div>
+      <div style="width:6.3%;background:var(--red);display:flex;align-items:center;justify-content:center"><span style="font-size:0.55rem;font-weight:700;color:#fff">Worlock</span></div>
+    </div>
+  </div>
+
+  <!-- Page 2 of section: Peoria + Phoenix keyword splits + what this means -->
+  <div style="break-before:page;page-break-before:always;padding-top:1.5rem">
+
+  <div class="card-grid cols-2" style="margin-bottom:1rem">
+
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot red"></span> Peoria Keyword Gap &mdash; Where Worlock Loses to Local Rivals</div>
+      <p style="font-size:0.8rem;color:var(--muted);margin-bottom:0.75rem">From Semrush gap export: 30 Peoria HVAC keywords tracked. AC Solutions generates <strong>993 monthly visits from just 143 keywords</strong> &mdash; nearly 7&times; Worlock&rsquo;s traffic &mdash; despite Worlock indexing 4&times; as many keywords. Quality and authority, not volume, drive rankings.</p>
+      <table>
+        <thead><tr><th>Keyword</th><th>Volume</th><th>Worlock</th><th>Leader</th></tr></thead>
+        <tbody>
+          <tr><td>ac repair peoria</td><td>480</td><td style="color:var(--red);font-weight:700">#60</td><td style="color:var(--green)">#1 Air-Zona</td></tr>
+          <tr><td>hvac peoria az</td><td>210</td><td style="color:var(--red);font-weight:700">#23</td><td style="color:var(--green)">#4 AC Sol.</td></tr>
+          <tr><td>ac repair peoria az</td><td>390</td><td style="color:var(--amber);font-weight:700">#6</td><td style="color:var(--green)">#1 Air-Zona</td></tr>
+          <tr><td>hvac contractor peoria az</td><td>90</td><td style="color:var(--red);font-weight:700">#22</td><td style="color:var(--green)">#1 Air-Zona</td></tr>
+          <tr><td>air conditioning repair peoria az</td><td>260</td><td style="color:var(--amber);font-weight:700">#8</td><td style="color:var(--green)">#1 AC Sol.</td></tr>
+          <tr><td>peoria hvac</td><td>110</td><td style="color:var(--red);font-weight:700">#45</td><td style="color:var(--green)">#4 AC Sol.</td></tr>
+          <tr><td>air conditioning repair peoria</td><td>170</td><td style="color:var(--red)">Not ranking</td><td style="color:var(--green)">#2 J&amp;M</td></tr>
+          <tr><td>hvac services available in peoria</td><td>50</td><td style="color:var(--red)">Not ranking</td><td style="color:var(--green)">#2 J&amp;M</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot red"></span> Phoenix Metro Opportunity &mdash; The Market Worlock Isn&rsquo;t Competing In</div>
+      <p style="font-size:0.8rem;color:var(--muted);margin-bottom:0.75rem">Worlock currently serves Phoenix, Glendale, Scottsdale, and Surprise &mdash; but its SEO is almost entirely Peoria-focused. The Phoenix metro generates the following monthly searches where Worlock barely registers:</p>
+      <table>
+        <thead><tr><th>Keyword</th><th>Vol/mo</th><th>Worlock</th><th>Notes</th></tr></thead>
+        <tbody>
+          <tr><td>ac repair phoenix</td><td>1,900</td><td style="color:var(--red)">Not ranking</td><td style="color:var(--muted)">Highest-volume local term</td></tr>
+          <tr><td>hvac companies phoenix</td><td>1,300</td><td style="color:var(--red)">Not ranking</td><td style="color:var(--muted)">Category/comparison intent</td></tr>
+          <tr><td>air conditioning service phoenix</td><td>880</td><td style="color:var(--red)">Not ranking</td><td style="color:var(--muted)">Broad service term</td></tr>
+          <tr><td>air conditioning phoenix</td><td>590</td><td style="color:var(--amber);font-weight:700">PAA #5 only</td><td style="color:var(--muted)">No organic position</td></tr>
+          <tr><td>hvac phoenix</td><td>590</td><td style="color:var(--red)">Not ranking</td><td style="color:var(--muted)">High-volume category term</td></tr>
+          <tr><td>emergency ac repair phoenix</td><td>480</td><td style="color:var(--red)">Not ranking</td><td style="color:var(--muted)">High-intent, high-value</td></tr>
+          <tr><td>heat pump repair phoenix</td><td>320</td><td style="color:var(--red)">Not ranking</td><td style="color:var(--muted)">Growing service category</td></tr>
+          <tr><td>ac installation phoenix az</td><td>260</td><td style="color:var(--red)">Not ranking</td><td style="color:var(--muted)">Transactional &mdash; installs = $8K&ndash;15K jobs</td></tr>
+        </tbody>
+      </table>
+      <div style="background:var(--red-light);border-left:3px solid var(--red);padding:0.6rem 0.85rem;font-size:0.78rem;color:var(--text);border-radius:0 6px 6px 0;margin-top:0.75rem">
+        <strong style="color:var(--red)">Phoenix gap total:</strong> Those 8 terms alone represent <strong>6,320+ monthly searches</strong> where Worlock has near-zero organic presence &mdash; despite already servicing Phoenix homeowners through paid LSA.
+      </div>
+    </div>
+
+  </div>
+
+  <div class="card-grid cols-2" style="margin-bottom:1rem">
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot red"></span> What This Means for Worlock</div>
+      <p style="font-size:0.85rem;color:var(--text);line-height:1.65;margin-bottom:0.85rem">The Peoria and Phoenix gaps tell two different stories. In Peoria, Worlock is losing rankings it should own &mdash; its backlink problems and AI-generated content are letting smaller competitors dominate terms in Bill&rsquo;s home market. In Phoenix, Worlock isn&rsquo;t even competing. AC Solutions generates 993 monthly visits from just 143 keywords because it ranks well; Worlock ranks for 606 keywords and generates only 145 visits because those rankings are on page 3&ndash;5. The fix for Peoria is authority and content quality. The fix for Phoenix is geo-expansion &mdash; building the hub pages and service content that put Worlock in front of 4.8 million potential customers who currently don&rsquo;t know the company exists.</p>
+      <div style="background:var(--navy);border-radius:8px;padding:1rem 1.25rem">
+        <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.5);margin-bottom:0.5rem">Pipeline Impact &mdash; The Revenue Math</div>
+        <div style="font-size:0.85rem;color:rgba(255,255,255,0.85);line-height:1.65"><strong style="color:rgba(255,200,100,1)">Peoria gap (3,670/mo):</strong> Reaching top-3 on 40% of tracked terms at 15% CTR yields ~220 additional visits/month. At 5% booking rate and $450 avg. job value: <strong style="color:rgba(255,200,100,1)">~$4,950/mo</strong> currently going to AC Solutions, Air-Zona, and J&amp;M.<br><br><strong style="color:rgba(255,200,100,1)">Phoenix opportunity (6,320+/mo):</strong> Even a conservative 5% capture on the 8 key Phoenix terms above = 316 additional visits &times; 4% conversion &times; $600 avg. value (Phoenix installs skew higher) = <strong style="color:rgba(255,200,100,1)">~$7,580/mo in new revenue</strong> from a market Worlock is already serving via paid.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot amber"></span> Organic Footprint by Competitor</div>
+      <div class="rank-bar winner"><span class="name"><strong>AC Solutions</strong></span><span class="score" style="color:var(--green)">993/mo &middot; 143 keywords &middot; AS 11</span></div>
+      <div class="rank-bar winner"><span class="name">Air-Zona</span><span class="score" style="color:var(--green)">689/mo &middot; 430 keywords &middot; AS 10</span></div>
+      <div class="rank-bar neutral"><span class="name">J&amp;M Cooling</span><span class="score" style="color:var(--text)">478/mo &middot; 218 keywords &middot; AS 18</span></div>
+      <div class="rank-bar loser"><span class="name"><strong>Worlock Air</strong></span><span class="score" style="color:var(--red)">145/mo &middot; 606 keywords &middot; AS 14 &#8595;</span></div>
+      <div style="margin-top:1rem;padding-top:0.75rem;border-top:1px solid var(--border);font-size:0.78rem;color:var(--text);line-height:1.6">
+        <strong>The key anomaly:</strong> AC Solutions ranks for fewer than one-quarter of Worlock&rsquo;s keywords yet generates <strong>6.8&times; more organic traffic</strong>. That discrepancy has one explanation: domain authority. Cleaner, fewer links from relevant sources beat a high volume of spam directory links on every ranking signal Google weighs.
+      </div>
+    </div>
+  </div>
+
+  </div>
+</section>
+<div class="full-divider"></div>
+<section>
+  <div class="section-header">
+    <div class="section-number">04</div>
+    <h2 class="section-title">Backlink Profile &amp; Domain Authority</h2>
+  </div>
+
+  <div class="gap-hero">
+    <div class="gap-hero-card">
+      <div class="number" style="color:var(--red)">14</div>
+      <div class="label">Authority Score<br>Down from ~20 in 2024</div>
+    </div>
+    <div class="gap-hero-card">
+      <div class="number" style="color:var(--red)">76.7%</div>
+      <div class="label">Backlinks That Are<br>Nofollow (Spam Signal)</div>
+    </div>
+    <div class="gap-hero-card">
+      <div class="number" style="color:var(--amber)">573</div>
+      <div class="label">Referring Domains<br>&#8595; Down from 689 Peak</div>
+    </div>
+  </div>
+
+  <p style="font-size:0.88rem;color:var(--text);line-height:1.65;max-width:780px;margin-bottom:1.25rem">Worlock&rsquo;s backlink footprint looks large on the surface &mdash; 13,467 total links from 573 referring domains. The problem is quality. More than three-quarters of those links are nofollow: they pass zero authority to the domain. Semrush&rsquo;s Network Graph rates the profile as <strong style="color:var(--red)">&ldquo;Dangerous.&rdquo;</strong> Meanwhile, J&amp;M Cooling reaches AS 18 with just 580 backlinks from 182 domains &mdash; fewer links, higher authority, more traffic.</p>
+
+  <div class="card-grid cols-2" style="margin-bottom:1rem">
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot red"></span> Authority &amp; Link Profile Breakdown</div>
+      <table>
+        <thead><tr><th>Metric</th><th>Value</th><th>Signal</th></tr></thead>
+        <tbody>
+          <tr><td>Authority Score</td><td style="color:var(--red);font-weight:700">14</td><td>&#8595; Down from ~20 over 12 months</td></tr>
+          <tr><td>Total Backlinks</td><td>13,467</td><td>High volume, low quality</td></tr>
+          <tr><td>Referring Domains</td><td style="color:var(--amber);font-weight:700">573</td><td>&#8595; Down from 689 (Aug 2025 peak)</td></tr>
+          <tr><td>Follow Links</td><td style="color:var(--red);font-weight:700">3,133 (23.3%)</td><td>Only 23% of links pass authority</td></tr>
+          <tr><td>Nofollow Links</td><td style="color:var(--red);font-weight:700">10,327 (76.7%)</td><td style="color:var(--red)">Spam/directory indicator</td></tr>
+          <tr><td>Network Graph Rating</td><td style="color:var(--red);font-weight:700">&ldquo;Dangerous&rdquo;</td><td>Semrush risk classification</td></tr>
+        </tbody>
+      </table>
+      <div style="background:var(--red-light);border-left:3px solid var(--red);border-radius:0 6px 6px 0;padding:0.65rem 0.85rem;font-size:0.8rem;color:var(--text);margin-top:0.75rem">
+        <strong style="color:var(--red)">Why this matters:</strong> Google weighs domain authority in local pack rankings. A 30% authority drop over 12 months directly correlates with the decline in organic visits and local visibility. Every month without intervention, referring domains continue to decay and ranking positions erode further.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot amber"></span> Authority Score vs. Competitors</div>
+      <div class="rank-bar winner"><span class="name"><strong>J&amp;M Cooling</strong></span><span class="score" style="color:var(--green)">AS 18 &middot; 182 clean ref. domains &middot; 478/mo traffic</span></div>
+      <div class="rank-bar loser"><span class="name">Worlock Air</span><span class="score" style="color:var(--red)">AS 14 &#8595; &middot; 573 spam-heavy domains &middot; 145/mo traffic</span></div>
+      <div class="rank-bar neutral"><span class="name">AC Solutions</span><span class="score" style="color:var(--text)">AS 11 &middot; 183 ref. domains &middot; 993/mo traffic</span></div>
+      <div class="rank-bar loser"><span class="name">Air-Zona</span><span class="score" style="color:var(--muted)">AS 10 &middot; 219 ref. domains &middot; 689/mo traffic</span></div>
+      <div style="margin-top:1rem;padding-top:0.75rem;border-top:1px solid var(--border)">
+        <div style="font-size:0.78rem;color:var(--text);line-height:1.6">
+          <strong>The key insight:</strong> J&amp;M Cooling has <strong>182 referring domains vs. Worlock&rsquo;s 573</strong> &mdash; but achieves a <strong>higher Authority Score (18 vs. 14)</strong> and generates <strong>3.3&times; more traffic (478 vs. 145)</strong>. Quality backlinks from relevant local sources outperform a large volume of spam directory links every time.
+        </div>
+      </div>
+      <div style="margin-top:0.75rem">
+        <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.5rem">What a Rebuilt Link Profile Targets</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;font-size:0.76rem">
+          <div style="background:var(--light-gray);border-radius:6px;padding:0.4rem 0.6rem"><strong>Local news</strong><br><span style="color:var(--muted)">AZ Republic, AZFamily</span></div>
+          <div style="background:var(--light-gray);border-radius:6px;padding:0.4rem 0.6rem"><strong>HVAC suppliers</strong><br><span style="color:var(--muted)">Carrier, Trane, Goodman</span></div>
+          <div style="background:var(--light-gray);border-radius:6px;padding:0.4rem 0.6rem"><strong>HOA networks</strong><br><span style="color:var(--muted)">Phoenix metro HOAs</span></div>
+          <div style="background:var(--light-gray);border-radius:6px;padding:0.4rem 0.6rem"><strong>Trade directories</strong><br><span style="color:var(--muted)">ACCA, BBB, Angi</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<div class="full-divider"></div>
+<section>
+  <div class="section-header">
+    <div class="section-number">05</div>
+    <h2 class="section-title">SEO Content</h2>
+  </div>
+
+  <div class="card-grid cols-2" style="margin-bottom:1rem">
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot red"></span> AI-Generated Content — The Core Problem</div>
+      <div class="header-tree">
+        <span class="page-label">worlockair.com/2026/05/new-ac-unit-cost-arizona-2026/</span>
+        <div><span class="tag">&lt;H1&gt;</span> <span class="h1">How Much Does a New AC Unit Cost in Arizona?</span></div>
+        <div class="indent miss">&#9888; QuillBot AI Detector: 96% AI-generated — Anthropic flagged as source</div>
+        <div class="indent miss">&#9888; Generic structure with no Phoenix-specific data, contractor quotes, or local pricing context</div>
+
+        <span class="page-label">worlockair.com/service-areas/phoenix/ac-repair/</span>
+        <div><span class="tag">&lt;H1&gt;</span> <span class="h1">AC Repair in Phoenix, AZ</span></div>
+        <div class="indent miss">&#9888; Location page exists but flagged as thin (low text-to-HTML ratio)</div>
+        <div class="indent miss">&#9888; No Local Business or Service schema — invalid markup on 167 pages site-wide</div>
+
+        <span class="page-label">worlockair.com/2025/10/why-rooftop-ac-units-are-popular-in-phoenix/</span>
+        <div><span class="tag">&lt;H1&gt;</span> <span class="h1">Why Rooftop AC Units Are Popular in Phoenix</span></div>
+        <div class="indent miss">&#9888; Blog currently ranking for "humidifier installation in peoria il" (Illinois) — geo-incorrect keyword bleed from generic AI content</div>
+        <div class="indent miss">&#9888; 188 blog posts published; 276 pages with low text-to-HTML ratio site-wide</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot amber"></span> Service &amp; Location Pages</div>
+      <table>
+        <thead><tr><th>Page Type</th><th>Status</th><th>Gap</th></tr></thead>
+        <tbody>
+          <tr><td>AC Repair — Peoria, AZ</td><td><span class="badge amber">Exists</span></td><td>Ranks #6; AI-generated content limiting page-1 breakthrough</td></tr>
+          <tr><td>AC Repair — Phoenix, AZ</td><td><span class="badge amber">Exists</span></td><td>Page thin; no rankings for "ac repair phoenix" (1,900/mo)</td></tr>
+          <tr><td>HVAC — Glendale, AZ</td><td><span class="badge amber">Exists</span></td><td>Thin location page; Glendale hub content missing</td></tr>
+          <tr><td>Phoenix HVAC Service Hub</td><td><span class="badge red">Missing</span></td><td>No authoritative Phoenix-focused hub; 4.8M metro uncaptured</td></tr>
+          <tr><td>Heating Repair — Phoenix</td><td><span class="badge red">Missing</span></td><td>Blog exists; no dedicated commercial service page</td></tr>
+          <tr><td>Emergency HVAC — Phoenix</td><td><span class="badge red">Missing</span></td><td>High-intent "emergency ac repair phoenix" (480/mo) — not targeted</td></tr>
+          <tr><td>Heat Pump Repair — Phoenix</td><td><span class="badge red">Missing</span></td><td>"Heat pump repair phoenix" = missed transactional opportunity</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="card-grid cols-2">
+    <div class="card">
+      <div class="card-label"><span class="dot red"></span> Blog &amp; Content Publishing</div>
+      <div class="big-stat danger" style="font-size:1.6rem;margin:0.5rem 0 0.25rem">AI-Heavy</div>
+      <div class="stat-sub" style="margin-bottom:1rem">188 blog posts published &mdash; QuillBot AI Detector flags <strong>96% as AI-generated</strong> (Anthropic identified as source)</div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.5rem;font-size:0.8rem;margin-bottom:0.85rem">
+        <div style="background:var(--light-gray);border-radius:6px;padding:0.5rem 0.65rem">
+          <div style="font-weight:700;color:var(--red)">96%</div>
+          <div style="color:var(--muted);font-size:0.72rem">Blogs AI-generated</div>
+        </div>
+        <div style="background:var(--light-gray);border-radius:6px;padding:0.5rem 0.65rem">
+          <div style="font-weight:700;color:var(--red)">276</div>
+          <div style="color:var(--muted);font-size:0.72rem">Thin-content pages flagged</div>
+        </div>
+      </div>
+      <div style="background:var(--red-light);border-left:3px solid var(--red);border-radius:0 6px 6px 0;padding:0.65rem 0.85rem;font-size:0.8rem;color:var(--text)">
+        <strong style="color:var(--red)">Critical:</strong> Google&rsquo;s Helpful Content Update specifically targets AI-generated commodity content. Sites that publish high volumes of unoriginal, template-driven articles see suppressed rankings across their entire domain &mdash; not just on the AI pages. Worlock&rsquo;s 606 keywords generating only 145 visits/month is a direct symptom: the domain is being treated as low-authority commodity content regardless of individual page relevance.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot red"></span> Missing Content Opportunities</div>
+      <ul style="padding-left:1.1rem;display:flex;flex-direction:column;gap:0.4rem">
+        <li><strong>AC repair Phoenix</strong> &mdash; 1,900/mo &mdash; no dedicated commercial page ranking</li>
+        <li><strong>HVAC companies Phoenix</strong> &mdash; 1,300/mo &mdash; zero presence for this category term</li>
+        <li><strong>Air conditioning service Phoenix</strong> &mdash; 880/mo &mdash; not targeting with a landing page</li>
+        <li><strong>Emergency AC repair Phoenix</strong> &mdash; 480/mo &mdash; high-intent, uncaptured</li>
+        <li><strong>Phoenix heat pump repair</strong> &mdash; 320/mo &mdash; no dedicated service page</li>
+        <li><strong>HVAC financing Phoenix</strong> &mdash; buyers ask; Worlock offers it but has no SEO page</li>
+        <li><strong>Glendale AZ AC repair</strong> &mdash; location page exists but thin; no hub content</li>
+        <li><strong>Indoor air quality Phoenix</strong> &mdash; adjacent service gap; competitors rank, Worlock doesn&rsquo;t</li>
+      </ul>
+    </div>
+  </div>
+
+</section>
+<div class="full-divider"></div>
+<section>
+  <div class="section-header">
+    <div class="section-number">06</div>
+    <h2 class="section-title">Local SEO &amp; Online Presence</h2>
+  </div>
+
+  <div class="card-grid cols-4" style="margin-bottom:1rem">
+    <div class="card">
+      <div class="card-label"><span class="dot amber"></span> NAP Audit</div>
+      <div style="font-size:0.82rem;line-height:1.8">
+        <div><strong>Name:</strong> Worlock Air Conditioning &amp; Heating</div>
+        <div><strong>Address:</strong> 8386 W Park View Ct</div>
+        <div><strong>City:</strong> Peoria, AZ 85383</div>
+        <div><strong>Phone:</strong> (623) 215-5444</div>
+        <div><strong>URL:</strong> worlockair.com</div>
+      </div>
+      <div style="background:var(--red-light);border:1px solid var(--red);border-radius:6px;padding:0.75rem 1rem;margin-top:0.75rem">
+        <div style="font-size:0.75rem;font-weight:700;color:var(--red);text-transform:uppercase;letter-spacing:0.08em;margin-bottom:0.3rem">&#9888; NAP Conflicts Detected</div>
+        <div style="font-size:0.8rem;color:var(--text)">11 of 23 scanned directories list wrong business names. Where To? lists wrong phone: <strong>(623) 294-5409</strong>. YP.com lists as <strong>"Worlock HVAC"</strong> with no address.</div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span class="dot green"></span> Google Business Profile</div>
+      <div class="big-stat success" style="font-size:1.4rem;margin:0.4rem 0">4.8 &#9733;</div>
+      <div class="stat-sub">299 Google reviews &mdash; strong social proof &mdash; GBP verified and active</div>
+      <div style="background:var(--green-light);border-left:3px solid var(--green);border-radius:0 6px 6px 0;padding:0.5rem 0.75rem;font-size:0.78rem;color:var(--text);margin-top:0.75rem">
+        <strong style="color:var(--green)">Strength:</strong> 4.8&#9733; / 299 reviews is a top-tier local reputation. The GBP foundation is Bill&rsquo;s biggest digital asset.
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span class="dot red"></span> Online Presence Rating</div>
+      <div class="big-stat sm danger">POOR</div>
+      <div class="stat-sub" style="margin-bottom:0.5rem">2 of 23 directories active &middot; 11 with NAP errors &middot; 7 not present &middot; 4 unavailable</div>
+      <div style="font-size:0.78rem;color:var(--text)">Missing from Bing &mdash; the default map source for Windows, Cortana, and Alexa voice search.</div>
+    </div>
+    <div class="card">
+      <div class="card-label"><span class="dot amber"></span> Key Listing Status</div>
+      <div style="font-size:0.82rem;line-height:2;margin-top:0.5rem">
+        <div style="display:flex;justify-content:space-between;align-items:center"><span>Google Business Profile</span><span class="badge green">Verified &#10003;</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center"><span>Bing Places</span><span class="badge red">Not Present</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center"><span>YP.com</span><span class="badge amber">Wrong Name</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center"><span>Facebook</span><span class="badge amber">No Phone Listed</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center"><span>Where To?</span><span class="badge red">Wrong Phone</span></div>
+        <div style="display:flex;justify-content:space-between;align-items:center"><span>HotFrog</span><span class="badge amber">Wrong Name</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card-grid cols-2" style="margin-bottom:1rem">
+    <div class="card">
+      <div class="card-label" style="margin-bottom:0.75rem"><span class="dot red"></span> Directory Name Inconsistencies</div>
+      <table>
+        <thead><tr><th>Directory</th><th>Status</th><th>Name Listed</th></tr></thead>
+        <tbody>
+          <tr><td>EZlocal</td><td><span class="badge amber">Issues</span></td><td style="color:var(--red)">Worlock A/C Heating Specialist</td></tr>
+          <tr><td>HotFrog</td><td><span class="badge amber">Issues</span></td><td style="color:var(--red)">Warlock Air Conditioning Specialists</td></tr>
+          <tr><td>YP.com</td><td><span class="badge amber">Issues</span></td><td style="color:var(--red)">Worlock HVAC (no address)</td></tr>
+          <tr><td>ShowMeLocal</td><td><span class="badge amber">Issues</span></td><td style="color:var(--red)">Worlock AC Repair &amp; Heating Specialist</td></tr>
+          <tr><td>GoLocal247</td><td><span class="badge amber">Issues</span></td><td style="color:var(--red)">Worlock AC &amp; Heating Specialist</td></tr>
+          <tr><td>Where To?</td><td><span class="badge red">Wrong Phone</span></td><td style="color:var(--red)">(623) 294-5409 listed</td></tr>
+          <tr><td>Bing Maps</td><td><span class="badge red">Not Present</span></td><td style="color:var(--muted)">— no listing —</td></tr>
+          <tr><td>Hours.com / Cylex / 8coupons</td><td><span class="badge red">Not Present</span></td><td style="color:var(--muted)">— missing entirely —</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="card span-4" style="background:var(--navy);border-radius:10px;padding:2rem;border:none">
+      <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:0.75rem">The Local SEO Problem, in One Paragraph</div>
+      <p style="font-size:1rem;color:var(--white);line-height:1.7">Worlock holds a 4.8-star GBP with 299 reviews &mdash; that&rsquo;s a genuinely strong local reputation. But the directory infrastructure underneath it is a mess: 11 of 23 scanned listings carry wrong business names, one carries an entirely wrong phone number, and Bing Maps has no listing at all. Search engines aggregate NAP data across directories to validate local relevance for map pack rankings. When the aggregated picture shows &ldquo;Worlock HVAC,&rdquo; &ldquo;Warlock Air Conditioning Specialists,&rdquo; and a wrong phone number in rotation, Google&rsquo;s confidence in surfacing worlockair.com for &ldquo;near me&rdquo; queries drops &mdash; regardless of how strong the GBP standalone is. The reviews Bill has earned deserve citation infrastructure that actually matches them.</p>
+    </div>
+  </div>
+
+</section>
+<div class="full-divider"></div>
+<section>
+  <div class="section-header">
+    <div class="section-number">07</div>
+    <h2 class="section-title">How Abstrakt Closes the Gap</h2>
+  </div>
+
+  <p style="font-size:0.88rem;color:var(--text);line-height:1.65;max-width:780px">Bill has done the hard part: 4.8 stars, 299 reviews, a trusted family-run reputation across Peoria and the Phoenix metro. What&rsquo;s missing is the digital infrastructure to let that reputation do the heavy lifting &mdash; so leads come in through search instead of through paid referral. Abstrakt combines SEO content, authority rebuilding, and local presence into one cohesive program that converts organic search into bookings.</p>
+
+  <div class="plan-grid">
+
+    <div class="plan-card">
+      <div class="plan-card-header">
+        <div style="width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,0.12);border:1.5px solid rgba(255,255,255,0.3);display:flex;align-items:center;justify-content:center;font-size:0.72rem;font-weight:900;color:white;flex-shrink:0">1</div>
+        <span class="step-title">SEO Content Strategy</span>
+      </div>
+      <div class="plan-card-body">
+        <p style="font-size:0.8rem;color:var(--muted);margin-bottom:0.75rem">188 AI-generated blogs and 276 thin pages are suppressing Worlock&rsquo;s rankings across the entire domain. Human-expert content built on real local knowledge is the fix &mdash; and the geo-expansion into Phoenix is the multiplier.</p>
+        <h4>What we build</h4>
+        <ul>
+          <li>Full content audit: identify and prioritize AI pages for human rewrite</li>
+          <li>Phoenix metro hub pages: AC Repair, HVAC, Heating, Heat Pumps &mdash; full service coverage</li>
+          <li>Glendale &amp; Scottsdale location page upgrades from thin to authoritative</li>
+          <li>Monthly blog content: human-written, HVAC-expert, Phoenix-specific local context</li>
+          <li>Schema markup implementation: Local Business + Service schema on all 41 location pages</li>
+          <li>Technical cleanup: fix 167 invalid schema errors, resolve 9 duplicate metas, unblock 29 AI-crawlable pages</li>
+          <li>Keyword targeting: move 245 page-3&ndash;5 positions toward page 1</li>
+        </ul>
+        <div class="callout">Every piece of content is written by humans, optimized for Phoenix homeowners, and built to earn trust rather than just volume.</div>
+      </div>
+    </div>
+
+    <div class="plan-card">
+      <div class="plan-card-header">
+        <div style="width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,0.12);border:1.5px solid rgba(255,255,255,0.3);display:flex;align-items:center;justify-content:center;font-size:0.72rem;font-weight:900;color:white;flex-shrink:0">2</div>
+        <span class="step-title">Authority &amp; Backlink Building</span>
+      </div>
+      <div class="plan-card-body">
+        <p style="font-size:0.8rem;color:var(--muted);margin-bottom:0.75rem">Authority Score has fallen from ~20 to 14 over 12 months, driven by a 76.7% nofollow link profile from cheap directory spam. The fix is two-part: disavow the toxic weight, and replace it with links that actually pass authority.</p>
+        <h4>What we do</h4>
+        <ul>
+          <li>Backlink audit: identify spam and low-quality nofollow links for Google Disavow</li>
+          <li>Quality link acquisition: local Phoenix news coverage, HOA networks, HVAC trade sources</li>
+          <li>HVAC industry directory submissions (ACCA, BBB, Carrier dealer network)</li>
+          <li>Linkable asset creation: Phoenix HVAC pricing guides, rooftop AC comparison content</li>
+          <li>Manufacturer partnership outreach: Goodman, Carrier, Lennox dealer placement</li>
+          <li>Monthly tracking: AS from 14 toward 22+ over 12 months</li>
+        </ul>
+        <div class="callout">J&amp;M Cooling reaches AS 18 with 182 clean referring domains. Quality beats quantity every time.</div>
+      </div>
+    </div>
+
+    <div class="plan-card">
+      <div class="plan-card-header">
+        <div style="width:26px;height:26px;border-radius:50%;background:rgba(255,255,255,0.12);border:1.5px solid rgba(255,255,255,0.3);display:flex;align-items:center;justify-content:center;font-size:0.72rem;font-weight:900;color:white;flex-shrink:0">3</div>
+        <span class="step-title">Local Presence &amp; Listings</span>
+      </div>
+      <div class="plan-card-body">
+        <p style="font-size:0.8rem;color:var(--muted);margin-bottom:0.75rem">Worlock&rsquo;s 4.8&#9733; GBP is one of the strongest local signals in the Peoria HVAC market. But 11 wrong-name listings and a Bing absence are actively undermining it. We fix the foundation so every directory reinforces the GBP instead of contradicting it.</p>
+        <h4>What we standardize</h4>
+        <ul>
+          <li>NAP correction across all 11 mis-named directories</li>
+          <li>Bing Places creation (critical: default map for Windows, Cortana &amp; Alexa)</li>
+          <li>Submit to Hours.com, Cylex, 8coupons, Navmii, YellowPagesDirectory</li>
+          <li>Fix wrong phone number on Where To? listing</li>
+          <li>GBP optimization: services, regular posts, Q&amp;A seeding, photo additions</li>
+          <li>GBP review response strategy to maintain 4.8&#9733; and surface social proof</li>
+        </ul>
+        <div class="callout">A consistent NAP across 20+ directories is the citation foundation that lets GBP authority flow into local pack rankings.</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<div class="full-divider"></div>
+<section>
+  <div class="section-header">
+    <div class="section-number">08</div>
+    <h2 class="section-title">Recommended Solution</h2>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);margin-bottom:0.75rem">Proposed Programs</div>
+    <div class="card-grid cols-3">
+
+      <div class="card" style="border:2px solid var(--coral)">
+        <div style="position:absolute;top:0;right:1rem;background:var(--coral);color:var(--white);font-size:0.58rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;padding:0.2rem 0.6rem;border-radius:0 0 4px 4px">Recommended</div>
+        <div style="font-size:1.1rem;font-weight:800;color:var(--charcoal);margin-bottom:0.25rem">SEO Content Program</div>
+        <div style="font-size:1.8rem;font-weight:900;color:var(--navy);margin-bottom:0.25rem">$2,250<span style="font-size:0.9rem;font-weight:400;color:var(--muted)">/mo</span></div>
+        <div style="font-size:0.72rem;color:var(--muted);margin-bottom:1rem">Content + optimization + local presence &mdash; no rebuild needed</div>
+        <div style="display:flex;flex-direction:column;gap:0.35rem">
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> Full content audit &mdash; identify AI pages, prioritize human rewrites</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> Phoenix + Glendale geo-expansion: hub pages + service sub-pages</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> 2 monthly blog posts &mdash; human-written, Phoenix-specific HVAC expertise</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> Schema markup: fix 167 invalid pages, add Local Business + Service schema</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> NAP standardization: correct 11+ directory errors; add Bing + 5 missing</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> GBP optimization: services, posts, Q&amp;A, photos, review strategy</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> Technical SEO: unblock AI crawlers, fix duplicate metas, internal link cleanup</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> Monthly keyword rank tracking + performance reporting</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> Hosting + site health monitoring included</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> Dedicated account manager + monthly results reporting</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="font-size:1.1rem;font-weight:800;color:var(--charcoal);margin-bottom:0.25rem">Website + SEO Content Program</div>
+        <div style="font-size:1.8rem;font-weight:900;color:var(--navy);margin-bottom:0.25rem">$2,500<span style="font-size:0.9rem;font-weight:400;color:var(--muted)">/mo</span></div>
+        <div style="font-size:0.72rem;color:var(--muted);margin-bottom:1rem">Full WordPress rebuild + SEO growth program (if rebuild desired)</div>
+        <div style="display:flex;flex-direction:column;gap:0.35rem">
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> New 30-page conversion-focused WordPress site &mdash; live in 90 days</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> 15,000 words of keyword-targeted website copy</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> SEO + AI-search foundation built in from day one</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> 3,000+ words/month of SEO content post-launch</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> All SEO Content Program deliverables included</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> Website hosting, health monitoring &amp; 24/7 support</div>
+          <div style="font-size:0.79rem;padding-left:1rem;position:relative"><span style="position:absolute;left:0;color:var(--green);font-weight:700">&check;</span> Dedicated account manager + monthly results reporting</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="font-size:1.1rem;font-weight:800;color:var(--charcoal);margin-bottom:0.25rem">Program Add-Ons</div>
+        <div style="font-size:0.72rem;color:var(--muted);margin-bottom:1rem">Layer onto either program as the strategy scales</div>
+        <div style="display:flex;flex-direction:column;gap:0.6rem">
+        <div style="border:1px solid var(--border);border-radius:8px;padding:0.75rem 0.9rem;background:var(--off-white)">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:0.5rem">
+            <div style="font-size:0.88rem;font-weight:800;color:var(--charcoal)">Paid Media Management</div>
+            <div style="font-size:0.95rem;font-weight:900;color:var(--navy);white-space:nowrap">From $1,250/mo</div>
+          </div>
+          <div style="font-size:0.76rem;color:var(--text);line-height:1.5;margin-top:0.25rem">Google Ads managed to Cost Per Lead &mdash; WhatConverts attribution, ClickCease fraud protection. Once organic builds momentum, paid becomes the cherry on top.</div>
+        </div>
+        <div style="border:1px solid var(--border);border-radius:8px;padding:0.75rem 0.9rem;background:var(--off-white)">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:0.5rem">
+            <div style="font-size:0.88rem;font-weight:800;color:var(--charcoal)">Social Media Management</div>
+            <div style="font-size:0.95rem;font-weight:900;color:var(--navy);white-space:nowrap">$500/mo</div>
+          </div>
+          <div style="font-size:0.76rem;color:var(--text);line-height:1.5;margin-top:0.25rem">Consistent, on-brand posting for Worlock &mdash; distributing SEO content and building social trust with Phoenix-area homeowners.</div>
+        </div>
+        <div style="border:1px solid var(--border);border-radius:8px;padding:0.75rem 0.9rem;background:var(--off-white)">
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:0.5rem">
+            <div style="font-size:0.88rem;font-weight:800;color:var(--charcoal)">Authority Building</div>
+            <div style="font-size:0.95rem;font-weight:900;color:var(--navy);white-space:nowrap">$500/mo</div>
+          </div>
+          <div style="font-size:0.76rem;color:var(--text);line-height:1.5;margin-top:0.25rem">Backlink program: disavow toxic links + acquire DA-40+ placements monthly to reverse the AS-14 decline and rebuild domain trust.</div>
+        </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="card-grid cols-2" style="margin-bottom:1rem">
+
+    <div class="card">
+      <div style="font-size:1rem;font-weight:800;color:var(--charcoal);margin-bottom:1.25rem">Why This Fits Worlock</div>
+
+      <div style="display:flex;flex-direction:column;gap:1rem;margin-bottom:1.25rem">
+        <div>
+          <div style="font-size:0.85rem;font-weight:700;color:var(--navy)">1. No rebuild required &mdash; WordPress on WP Engine is solid infrastructure</div>
+          <div style="font-size:0.82rem;color:var(--text)">GTmetrix Grade A, 99% performance score, 1.6s load time. The technical foundation is strong. The problem is what&rsquo;s on the pages &mdash; AI content, thin copy, schema errors &mdash; not the architecture underneath. No rebuild needed means faster results at lower cost.</div>
+        </div>
+        <div>
+          <div style="font-size:0.85rem;font-weight:700;color:var(--navy)">2. Phoenix metro is the unlock &mdash; Worlock is paying LSA to reach customers organic should deliver for free</div>
+          <div style="font-size:0.82rem;color:var(--text)">&ldquo;AC repair phoenix&rdquo; alone drives 1,900 monthly searches. Worlock barely appears. Geo-expansion into Phoenix, Glendale, and Scottsdale with human-expert content turns a Peoria-only play into a metro-wide lead engine.</div>
+        </div>
+        <div>
+          <div style="font-size:0.85rem;font-weight:700;color:var(--navy)">3. Content quality beats content quantity &mdash; 188 AI posts haven&rsquo;t moved the needle</div>
+          <div style="font-size:0.82rem;color:var(--text)">Two well-written, locally-grounded expert posts per month compound faster than a dozen generic AI articles. Abstrakt&rsquo;s content is written by human writers with HVAC market knowledge, not AI templates.</div>
+        </div>
+        <div>
+          <div style="font-size:0.85rem;font-weight:700;color:var(--navy)">4. The GBP + review foundation is already exceptional</div>
+          <div style="font-size:0.82rem;color:var(--text)">4.8&#9733; across 299 Google reviews is top-tier social proof. Abstrakt&rsquo;s program amplifies what Bill has already earned &mdash; making those reviews visible to more homeowners through better organic presence and local pack rankings.</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="font-size:1rem;font-weight:800;color:var(--charcoal);margin-bottom:1rem">90-Day Launch Plan</div>
+
+      <div style="display:flex;flex-direction:column;gap:0.6rem;margin-bottom:1rem">
+
+        <div style="border-left:3px solid var(--navy);padding:0.75rem 1rem;background:var(--light-gray);border-radius:0 8px 8px 0">
+          <div style="font-size:0.7rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:var(--navy);margin-bottom:0.35rem">Days 1&ndash;30 &mdash; Audit &amp; Foundation</div>
+          <div style="font-size:0.79rem;color:var(--text);line-height:1.6">Full content audit + AI page identification &middot; NAP standardization begins (Bing setup, 11 directory corrections) &middot; Schema markup audit + remediation plan &middot; GBP optimization: services, photos, Q&amp;A seeding &middot; Keyword strategy locked for Phoenix expansion</div>
+        </div>
+
+        <div style="border-left:3px solid var(--amber);padding:0.75rem 1rem;background:var(--amber-light);border-radius:0 8px 8px 0">
+          <div style="font-size:0.7rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:var(--amber);margin-bottom:0.35rem">Days 31&ndash;60 &mdash; Content &amp; Technical</div>
+          <div style="font-size:0.79rem;color:var(--text);line-height:1.6">First Phoenix hub pages live (AC Repair, HVAC, Heating) &middot; Schema fixes deployed on service + location pages &middot; AI crawlers unblocked (29 pages) &middot; First monthly blog post published &middot; Core Peoria service pages rewritten</div>
+        </div>
+
+        <div style="border-left:3px solid var(--green);padding:0.75rem 1rem;background:var(--green-light);border-radius:0 8px 8px 0">
+          <div style="font-size:0.7rem;font-weight:800;letter-spacing:0.1em;text-transform:uppercase;color:var(--green);margin-bottom:0.35rem">Days 61&ndash;90 &mdash; Expansion &amp; Reporting</div>
+          <div style="font-size:0.79rem;color:var(--text);line-height:1.6">Glendale + Scottsdale location pages built &middot; Citation cleanup complete (all 23 directories accurate) &middot; Keyword baseline report delivered &middot; Month 3 performance summary &middot; Phoenix emergency + heat pump pages live</div>
+        </div>
+
+      </div>
+
+      <div style="background:var(--green-light);border-radius:8px;padding:0.85rem 1rem;border:1px solid var(--green)">
+        <div style="font-size:0.65rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--green);margin-bottom:0.5rem">12-Month Targets</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:0.4rem;font-size:0.8rem">
+          <div><span style="color:var(--muted)">Organic Traffic:</span> <strong>145 &rarr; 600+/mo</strong></div>
+          <div><span style="color:var(--muted)">Top-10 Keywords:</span> <strong>63 &rarr; 150+</strong></div>
+          <div><span style="color:var(--muted)">Authority Score:</span> <strong>14 &rarr; 22+</strong></div>
+          <div><span style="color:var(--muted)">Citation Accuracy:</span> <strong>~10% &rarr; 100%</strong></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div style="background:var(--charcoal);border-radius:10px;padding:2rem;margin-top:1rem">
+    <div style="max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:start">
+      <div>
+        <div style="font-size:0.72rem;font-weight:700;letter-spacing:0.12em;text-transform:uppercase;color:rgba(255,255,255,0.4);margin-bottom:0.5rem">The Full Stack &mdash; Social + Outbound + Paid</div>
+        <div style="font-size:1.1rem;font-weight:800;color:var(--white);margin-bottom:0.75rem">Organic Is the Foundation. Everything Else Stacks on Top.</div>
+        <p style="font-size:0.85rem;color:rgba(255,255,255,0.7);line-height:1.6;margin-bottom:0.75rem">SEO content builds the long-term lead engine &mdash; the organic traffic and local pack presence that generates bookings while Bill sleeps. Social media amplifies every piece of content, reinforcing Worlock&rsquo;s reputation across the Phoenix metro. And once organic is generating consistent inbound, paid search becomes a precision instrument: targeting high-intent emergency and installation keywords with a Cost Per Lead focus, not just impressions.</p>
+        <p style="font-size:0.85rem;color:rgba(255,255,255,0.7);line-height:1.6">Abstrakt also offers outbound appointment setting &mdash; teams that engage, qualify, and book HVAC prospects directly into Worlock&rsquo;s schedule. Partners who combine inbound SEO + social + outbound average a <strong style="color:rgba(255,200,100,1)">2.1&times; increase in deal size</strong> and a <strong style="color:rgba(255,200,100,1)">3.55&times; average ROI</strong>.</p>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:1rem;flex-shrink:0;min-width:150px">
+        <div style="text-align:center;background:rgba(255,255,255,0.06);border-radius:8px;padding:1rem">
+          <div style="font-size:2rem;font-weight:900;color:var(--white)">2.1x</div>
+          <div style="font-size:0.6rem;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.08em">Deal Size Increase</div>
+        </div>
+        <div style="text-align:center;background:rgba(255,255,255,0.06);border-radius:8px;padding:1rem">
+          <div style="font-size:2rem;font-weight:900;color:var(--white)">3.55x</div>
+          <div style="font-size:0.6rem;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.08em">Avg. Client ROI</div>
+        </div>
+        <div style="text-align:center;background:rgba(255,255,255,0.06);border-radius:8px;padding:1rem">
+          <div style="font-size:2rem;font-weight:900;color:var(--white)">100K+</div>
+          <div style="font-size:0.6rem;color:rgba(255,255,255,0.5);text-transform:uppercase;letter-spacing:0.08em">Appts / Year</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<div class="full-divider"></div>
+<footer style="background:var(--navy);padding:4rem 3rem;text-align:center">
+  <div style="max-width:800px;margin:0 auto">
+    
+    <div style="font-size:1.8rem;font-weight:800;color:var(--white);line-height:1.3;margin-bottom:0.75rem">
+      Stop Paying for Leads That Organic Should Deliver.
+    </div>
+      
+    <div style="font-size:1.1rem;color:rgba(255,255,255,0.8);margin-bottom:2rem">
+      Bill has already earned the trust &mdash; 4.8&#9733; across 299 reviews. Abstrakt builds the digital presence that turns that reputation into a consistent flow of Phoenix-area leads.
+    </div>
+
+    <a href="https://www.abstraktmg.com/contact" style="display:inline-block;background:var(--coral);color:var(--white);font-weight:700;font-size:1rem;padding:0.9rem 2.5rem;border-radius:6px;text-decoration:none;letter-spacing:0.04em">Get Started &rarr;</a>
+
+    <div style="margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,0.1);font-size:0.75rem;color:rgba(255,255,255,0.35)">
+      Prepared by Abstrakt Marketing Group &middot; July 2026 &middot; Confidential
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
